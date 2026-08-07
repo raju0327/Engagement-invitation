@@ -7,7 +7,7 @@ window.translations = {
     "nav-guestbook": "Guestbook",
     "nav-wishes": "Wishes",
     
-    "env-subtitle": "Wedding Invitation",
+    "env-subtitle": "Engagement Invitation",
     "env-names": "Vedha Kishore Raj & SeethaLakshmi",
     "env-prompt": "You are cordially invited",
     "env-action": "Click to Open",
@@ -22,8 +22,8 @@ window.translations = {
     "hero-date-wedding": "October 25, 2026",
     "hero-venue-wedding": "Pothi Mahal • Gummidipoondi, Tamilnadu",
     
-    "welcome-title": "Welcome to our Wedding Site",
-    "welcome-text": "We are incredibly excited to take the next step in our journey together. Having you join us to celebrate our love and union means the world to us. Please use this website to explore our story, find schedules, view our gallery, and send your RSVP response.",
+    "welcome-title": "Welcome to our Engagement Site",
+    "welcome-text": "We are incredibly excited to take the next step in our journey together. Having you join us to celebrate our engagement means the world to us. Please use this website to explore event details, location maps, and send your RSVP response.",
     
     "countdown-title": "Countdown to the Celebration",
     "days": "Days",
@@ -130,7 +130,7 @@ window.translations = {
     "wishes-subtitle": "Blessings and messages from our family and friends.",
     "wishes-loading": "Loading wishes...",
     
-    "footer-tagline": "Two hearts united in love and faith. We look forward to celebrating our wedding journey with you.",
+    "footer-tagline": "Two hearts united in love and faith. We look forward to celebrating our engagement journey with you.",
     "footer-signoff": "With Love,",
     "footer-couple": "Vedha Kishore Raj & SeethaLakshmi",
     "footer-copyright": "© 2026 Vedha Kishore & SeethaLakshmi. All rights reserved."
@@ -143,7 +143,7 @@ window.translations = {
     "nav-guestbook": "வாழ்த்துப் புத்தகம்",
     "nav-wishes": "வாழ்த்துகள்",
     
-    "env-subtitle": "திருமண அழைப்பிதழ்",
+    "env-subtitle": "நிச்சயதார்த்த அழைப்பிதழ்",
     "env-names": "வேதா கிஷோர் ராஜ் & சீதாலட்சுமி",
     "env-prompt": "உங்களை அன்போடு அழைக்கிறோம்",
     "env-action": "திறக்க கிளிக் செய்யவும்",
@@ -158,8 +158,8 @@ window.translations = {
     "hero-date-wedding": "அக்டோபர் 25, 2026",
     "hero-venue-wedding": "போத்தி மஹால் • கும்மிடிப்பூண்டி, தமிழ்நாடு",
     
-    "welcome-title": "எங்கள் திருமண இணையதளத்திற்கு வரவேற்பு",
-    "welcome-text": "எங்கள் திருமண இணையதளத்திற்கு உங்களை அன்போடு வரவேற்கிறோம். எங்கள் வாழ்நாள் பயணத்தின் அடுத்த அடியை எடுத்து வைப்பதில் நாங்கள் பெரும் மகிழ்ச்சி அடைகிறோம். இந்த இனிய தருணத்தைக் கொண்டாட எங்களுடன் நீங்கள் இணைவது எங்களுக்கு எல்லையற்ற மகிழ்ச்சியைத் தரும். எங்கள் காதல் பயணம், நிகழ்வு விவரங்களை ஆராயவும், உங்களது வருகையை உறுதிப்படுத்தவும் இந்த இணையதளத்தைப் பயன்படுத்த வேண்டுகிறோம்.",
+    "welcome-title": "எங்கள் நிச்சயதார்த்த இணையதளத்திற்கு வரவேற்பு",
+    "welcome-text": "எங்கள் நிச்சயதார்த்த இணையதளத்திற்கு உங்களை அன்போடு வரவேற்கிறோம். எங்கள் வாழ்நாள் பயணத்தின் அடுத்த அடியை எடுத்து வைப்பதில் நாங்கள் பெரும் மகிழ்ச்சி அடைகிறோம். இந்த இனிய தருணத்தைக் கொண்டாட எங்களுடன் நீங்கள் இணைவது எங்களுக்கு எல்லையற்ற மகிழ்ச்சியைத் தரும். நிகழ்வு விவரங்களை ஆராயவும், உங்களது வருகையை உறுதிப்படுத்தவும் இந்த இணையதளத்தைப் பயன்படுத்த வேண்டுகிறோம்.",
     
     "countdown-title": "மங்கல நாள் கவுண்ட்டவுன்",
     "days": "நாட்கள்",
@@ -266,7 +266,7 @@ window.translations = {
     "wishes-subtitle": "குடும்பத்தினர் மற்றும் நண்பர்களின் வாழ்த்துகள் மற்றும் ஆசிகள்.",
     "wishes-loading": "வாழ்த்துகள் ஏற்றப்படுகின்றன...",
     
-    "footer-tagline": "இரு இதயங்கள் அன்பிலும் நம்பிக்கையிலும் இணைகின்றன. எங்களது திருமணப் பயணத்தில் உங்களுடன் கொண்டாடுவதை எதிர்நோக்குகிறோம்.",
+    "footer-tagline": "இரு இதயங்கள் அன்பிலும் நம்பிக்கையிலும் இணைகின்றன. எங்களது நிச்சயதார்த்தப் பயணத்தில் உங்களுடன் கொண்டாடுவதை எதிர்நோக்குகிறோம்.",
     "footer-signoff": "அன்புடன்,",
     "footer-couple": "வேதா கிஷோர் ராஜ் & சீதாலட்சுமி",
     "footer-copyright": "© 2026 வேதா கிஷோர் & சீதாலட்சுமி. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."

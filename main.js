@@ -422,7 +422,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const navLinks = document.querySelectorAll('.nav-link');
 
   function handleRoute() {
-    const hash = window.location.hash || '#home';
+    let hash = window.location.hash || '#home';
+
+    // Temporarily disabled / closed sections fallback to #home
+    if (hash === '#story' || hash === '#gallery') {
+      hash = '#home';
+      if (window.location.hash !== '#home') {
+        history.replaceState(null, '', '#home');
+      }
+    }
 
     // Deactivate all page views and nav links
     pages.forEach(page => page.classList.remove('active'));
@@ -430,7 +438,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Activate target page
     const activePage = document.querySelector(hash);
-    if (activePage) {
+    if (activePage && !activePage.style.display.includes('none')) {
       activePage.classList.add('active');
     } else {
       // Fallback

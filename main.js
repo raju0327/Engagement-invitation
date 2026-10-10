@@ -243,10 +243,10 @@ document.addEventListener('DOMContentLoaded', () => {
         this.swayRange = this.type === 'heart' ? Math.random() * 0.6 + 0.25 : Math.random() * 0.4 + 0.1;
 
         const colors = [
-          'rgba(203, 163, 49, ',  // Champagne gold
-          'rgba(235, 213, 148, ', // Soft gold
-          'rgba(242, 222, 172, ', // Cream gold
-          'rgba(252, 239, 161, '  // Shimmering white gold
+          'rgba(212, 175, 55, ',  // Imperial Gold
+          'rgba(245, 215, 127, ', // Soft Light Gold
+          'rgba(230, 74, 117, ',  // Lotus Pink Blossom
+          'rgba(250, 140, 167, '  // Light Lotus Accent
         ];
         this.colorPrefix = colors[Math.floor(Math.random() * colors.length)];
       }
@@ -422,15 +422,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const navLinks = document.querySelectorAll('.nav-link');
 
   function handleRoute() {
-    let hash = window.location.hash || '#home';
-
-    // Temporarily disabled / closed sections fallback to #home
-    if (hash === '#story' || hash === '#gallery') {
-      hash = '#home';
-      if (window.location.hash !== '#home') {
-        history.replaceState(null, '', '#home');
-      }
-    }
+    const hash = window.location.hash || '#home';
 
     // Deactivate all page views and nav links
     pages.forEach(page => page.classList.remove('active'));
@@ -438,7 +430,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Activate target page
     const activePage = document.querySelector(hash);
-    if (activePage && !activePage.style.display.includes('none')) {
+    if (activePage) {
       activePage.classList.add('active');
     } else {
       // Fallback
@@ -474,8 +466,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const timerDisplay = document.getElementById('countdown-timer-display');
   const messageDisplay = document.getElementById('countdown-message');
 
-  // August is month index 7 (0-indexed)
-  let countdownDate = getISTTimestamp(2026, 7, 23, 18, 30);
+  // October is month index 9 (0-indexed)
+  let countdownDate = getISTTimestamp(2026, 9, 25, 6, 30); // Wedding Muhurtham
 
   function updateCountdown() {
     if (!timerDisplay || !messageDisplay) return;
@@ -524,21 +516,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const countdownType = activeTab.getAttribute('data-countdown-type');
 
-      if (countdownType === 'engagement') {
-        countdownDate = getISTTimestamp(2026, 7, 23, 18, 30);
-        heroDate.textContent = window.translations[window.currentLang]['hero-date-engagement'];
-        heroVenue.textContent = window.translations[window.currentLang]['hero-venue-engagement'];
+      if (countdownType === 'reception') {
+        countdownDate = getISTTimestamp(2026, 9, 24, 19, 0);
+        heroDate.textContent = window.translations[window.currentLang]['hero-date-reception'];
+        heroVenue.textContent = window.translations[window.currentLang]['hero-venue-reception'];
       } else if (countdownType === 'wedding') {
-        countdownDate = getISTTimestamp(2026, 9, 25, 7, 30);
+        countdownDate = getISTTimestamp(2026, 9, 25, 6, 30);
         heroDate.textContent = window.translations[window.currentLang]['hero-date-wedding'];
         heroVenue.textContent = window.translations[window.currentLang]['hero-venue-wedding'];
-        
-        if (isWeddingLocked()) {
-          const wrapper = document.getElementById('hero-details-lock-wrapper');
-          if (wrapper) triggerShake(wrapper);
-        } else {
-          triggerConfetti();
-        }
+        triggerConfetti();
       }
 
       // Reset interval to prevent stutter and trigger immediate update

@@ -4,23 +4,36 @@
 
 /* 
   Wedding Invitation Premium Design System
-  Theme: Watercolor Emerald Green & Champagne Gold
+  Theme: Regal Crimson, Imperial Gold & Lotus Pink (Inspired by Invitation Card)
 */
 
 :root {
-  /* Soft Watercolor Paint Tokens */
-  --primary: #123e32;
-  /* Soft Emerald Paint */
-  --primary-rgb: 18, 62, 50;
-  --secondary: #cba331;
-  /* Gold Leaf Paint */
-  --secondary-hover: #ebd594;
-  --dark: #162420;
-  --light: #f7f3ea;
-  /* Cream Watercolor Paper */
-  --light-gray: #e4ddcf;
-  --text-dark: #2c3c36;
-  --text-light: #ece9e2;
+  /* Regal Crimson & Imperial Gold Color Tokens */
+  --primary: #80002A;
+  --primary-rgb: 128, 0, 42;
+  --primary-dark: #54001B;
+  --primary-deep: #3D0013;
+  --primary-crimson: #9E0036;
+  
+  --secondary: #D4AF37;
+  --secondary-rgb: 212, 175, 55;
+  --secondary-light: #F5D77F;
+  --secondary-hover: #E5C158;
+
+  /* Gold Metallic & Crimson Gradients */
+  --gold-gradient: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
+  --crimson-gradient: linear-gradient(145deg, #8A002C 0%, #A8003A 40%, #5E001E 100%);
+  --cream-card: #FFFDF7;
+  --cream-gold-border: #E8C56A;
+  --lotus-pink: #E64A75;
+  --lotus-pink-light: #FA8CA7;
+
+  --dark: #2E000F;
+  --light: #FAF4E8;
+  --light-gray: #F0E6D2;
+  --text-dark: #360012;
+  --text-light: #FDFBF7;
+  --text-gold: #D4AF37;
 
   /* Font Family */
   --font-serif: 'Cinzel', Georgia, serif;
@@ -47,15 +60,15 @@ html {
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--light);
-  /* Blending Watercolor Paint Stains */
+  background-color: #5E001E;
+  /* Deep Crimson Luxury Texture Background */
   background-image:
-    radial-gradient(circle at 15% 15%, rgba(203, 163, 49, 0.05) 0%, transparent 40%),
-    radial-gradient(circle at 85% 35%, rgba(18, 62, 50, 0.06) 0%, transparent 50%),
-    radial-gradient(circle at 20% 75%, rgba(18, 62, 50, 0.04) 0%, transparent 45%),
-    radial-gradient(circle at 80% 80%, rgba(203, 163, 49, 0.07) 0%, transparent 40%),
-    radial-gradient(circle at 50% 50%, rgba(247, 243, 234, 0.6) 0%, transparent 100%);
-  color: var(--text-dark);
+    radial-gradient(circle at 15% 15%, rgba(212, 175, 55, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 85% 35%, rgba(158, 0, 54, 0.4) 0%, transparent 50%),
+    radial-gradient(circle at 20% 75%, rgba(61, 0, 19, 0.6) 0%, transparent 45%),
+    radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.12) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(128, 0, 42, 0.95) 0%, #3D0013 100%);
+  color: var(--text-light);
   line-height: 1.6;
   overflow-x: hidden;
   position: relative;
@@ -3432,29 +3445,178 @@ h4 {
     margin-right: auto;
   }
 
-  .footer-hashtags {
-    justify-content: center;
+}
+
+/* --- Physical Invitation Card Custom UI Components --- */
+.motto-top {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  letter-spacing: 3px;
+  color: var(--secondary-light);
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.motto-badge-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card-motto {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: #F5D77F;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
+}
+
+.side-badge {
+  font-family: var(--font-serif);
+  font-size: 0.72rem;
+  letter-spacing: 2.5px;
+  color: #F5D77F;
+  border-top: 1px solid rgba(212, 175, 55, 0.5);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.5);
+  padding: 4px 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.hero-poem {
+  font-family: var(--font-cursive);
+  font-size: 1.55rem;
+  color: #FFFDF7;
+  max-width: 750px;
+  margin: 1.5rem auto;
+  line-height: 1.6;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.invitation-banner-text {
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  color: #D4AF37;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 1.5rem 0 2rem 0;
+  line-height: 1.7;
+}
+
+.couple-details-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.groom-info-block, .bride-info-block {
+  flex: 1;
+  min-width: 280px;
+  background: rgba(61, 0, 19, 0.6);
+  border: 1.5px solid rgba(212, 175, 55, 0.4);
+  border-radius: 16px;
+  padding: 1.8rem 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.groom-info-block:hover, .bride-info-block:hover {
+  transform: translateY(-4px);
+  border-color: #F5D77F;
+}
+
+.person-name {
+  font-family: var(--font-cursive);
+  font-size: 2.6rem;
+  color: #F5D77F;
+  margin-bottom: 0.3rem;
+  line-height: 1.2;
+}
+
+.person-role {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: #E64A75;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.person-parents {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: #FFFDF7;
+  opacity: 0.9;
+}
+
+.ampersand-circle {
+  font-family: var(--font-cursive);
+  font-size: 2.2rem;
+  color: #D4AF37;
+  background: rgba(128, 0, 42, 0.9);
+  border: 2px solid #D4AF37;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+  flex-shrink: 0;
+}
+
+.luxury-arch-card {
+  background: rgba(61, 0, 19, 0.75) !important;
+  border: 2px solid rgba(212, 175, 55, 0.5) !important;
+  border-radius: 24px 24px 16px 16px !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4) !important;
+}
+
+.closing-blessing-card {
+  background: linear-gradient(135deg, rgba(128, 0, 42, 0.9), rgba(61, 0, 19, 0.95)) !important;
+  border: 2px solid #D4AF37 !important;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3) !important;
+}
+
+.closing-blessing-text {
+  font-family: var(--font-cursive);
+  font-size: 2rem;
+  color: #F5D77F;
+  line-height: 1.5;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+  .motto-badge-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .side-badge {
+    font-size: 0.65rem;
+  }
+  .hero-poem {
+    font-size: 1.3rem;
+  }
+  .person-name {
+    font-size: 2.1rem;
+  }
+  .closing-blessing-text {
+    font-size: 1.6rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .hero-couple-names {
-    font-size: 2.5rem;
-  }
-
-  .hero-details {
-    font-size: 1.1rem;
-  }
-
-  .attendance-cards-group {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .dress-code-palette {
-    gap: 1rem;
-  }
-
   .palette-swatch {
     width: 38px;
     height: 38px;

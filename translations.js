@@ -7,133 +7,145 @@ window.translations = {
     "nav-guestbook": "Guestbook",
     "nav-wishes": "Wishes",
     
-    "env-subtitle": "Engagement Invitation",
-    "env-names": "Vedha Kishore Raj & SeethaLakshmi",
+    "env-subtitle": "Wedding Invitation",
+    "env-names": "S. Kishore Raj & K. Seethalakshmi",
     "env-prompt": "You are cordially invited",
     "env-action": "Click to Open",
     
+    "motto": "|| Shree Ganeshaya Namah ||",
+    "badge-left": "TWO HEARTS ONE BEAUTIFUL JOURNEY",
+    "badge-right": "TOGETHER A BRIGHTER TOMORROW",
+
     "hero-save-date": "Save The Date",
-    "hero-couple-names": "Vedha Kishore Raj <span class=\"ampersand\">&</span> SeethaLakshmi",
-    "hero-tab-engagement": "Engagement",
+    "hero-couple-names": "S. Kishore Raj <span class=\"ampersand\">&</span> K. Seethalakshmi",
+    "hero-poem": "\"A love already blessed by God, now finds its beautiful moment to bloom. Two hearts, two souls, coming together as one, to begin a lifetime of love, togetherness, and happiness.\"",
+    
+    "hero-tab-reception": "Reception",
     "hero-tab-wedding": "Wedding",
     
-    "hero-date-engagement": "August 23, 2026",
-    "hero-venue-engagement": "Sri Om Chairma Thirumana Mandabam • Chennai, India",
-    "hero-date-wedding": "October 25, 2026",
-    "hero-venue-wedding": "Pothi Mahal • Gummidipoondi, Tamilnadu",
+    "hero-date-wedding": "Sunday, October 25, 2026",
+    "hero-venue-wedding": "Pothi Mahal • Gummidipoondi, Tamil Nadu",
+    "hero-date-reception": "Saturday, October 24, 2026",
+    "hero-venue-reception": "Pothi Mahal • Gummidipoondi, Tamil Nadu",
+
+    "invitation-banner": "WE, TOGETHER WITH OUR FAMILIES, CORDIALLY INVITE OUR BELOVED FAMILY AND FRIENDS TO GRACE THE AUSPICIOUS OCCASION OF THE WEDDING OF",
+    "groom-name": "S. Kishore Raj, M.C.A.",
+    "groom-role": "(Assistant Manager at KM Enterprises)",
+    "groom-parents": "(S/O. Sri. L. Srinivasan & Smt. S. Devi)",
+    "bride-name": "K. Seethalakshmi, B.Com.",
+    "bride-role": "(Human Resource Manager at Placement Point Solutions)",
+    "bride-parents": "(D/O. Late. Sri. G. Kuppan & Smt. K. Mekala)",
+    "and-text": "and",
     
-    "welcome-title": "Welcome to our Engagement Site",
-    "welcome-text": "We are incredibly excited to take the next step in our journey together. Having you join us to celebrate our engagement means the world to us. Please use this website to explore event details, location maps, and send your RSVP response.",
+    "welcome-title": "Welcome to Our Wedding Celebration",
+    "welcome-text": "We are incredibly excited to take the next step in our journey together. Having you join us to celebrate our love and sacred union means the world to us. Please explore our wedding website for event schedules, location directions, photo gallery, and send your RSVP & wishes.",
     
-    "countdown-title": "Countdown to the Celebration",
+    "countdown-title": "Countdown to the Sacred Union",
     "days": "Days",
     "hours": "Hours",
     "minutes": "Minutes",
     "seconds": "Seconds",
     
-    "lock-msg-hero": "Locked until Aug 23, 8:00 PM",
-    "lock-msg-countdown": "Countdown Locked",
+    "lock-msg-hero": "Locked until Oct 25, 6:30 AM",
+    "lock-msg-countdown": "Countdown Active",
     "lock-msg-locked": "Locked",
-    "lock-msg-gallery": "Available After Our Engagement",
+    "lock-msg-gallery": "Available After Our Wedding",
     
     "story-title": "Our Love Story",
     "story-subtitle": "Every love story is beautiful, but ours is our favorite.",
     "story-met-title": "How We Met",
-    "story-met-body": "It started with a simple hello, but quickly grew into something extraordinary. Through late-night conversations and shared dreams, we realized we had found our lifetime partner.",
-    "story-proposal-title": "The Proposal",
-    "story-proposal-body": "Under a starry night sky, with promises of forever, we made the commitment to walk hand-in-hand through all of life's chapters.",
-    "story-journey-title": "Our Journey",
-    "story-journey-body": "Now, we stand ready to write our next chapter as husband and wife. We are so blessed to share this milestone with our wonderful family and friends.",
+    "story-met-body": "It started with a simple hello, but quickly grew into something extraordinary. Through shared values, laughter, and family blessings, we realized we had found our lifetime partner.",
+    "story-proposal-title": "The Sacred Vows",
+    "story-proposal-body": "With the love and support of our families, we made the lifelong commitment to walk hand-in-hand through all of life's beautiful chapters.",
+    "story-journey-title": "Our Journey Together",
+    "story-journey-body": "Now, we stand ready to begin our next chapter as husband and wife. We are so blessed to share this auspicious milestone with our wonderful family and friends.",
     
     "qa-title": "He Said, She Said",
     "qa-tagline": "We answered some fun questions about each other",
     "qa-kishore-title": "Kishore's Answers",
     "qa-seetha-title": "Seetha's Answers",
     "qa-q1": "What was your first impression of Seetha?",
-    "qa-kishore-a1": "\"I thought she was absolutely stunning and carried this warm, gentle energy that made me feel instantly comfortable. I couldn't stop smiling.\"",
-    "qa-q2": "Who said 'I love you' first?",
-    "qa-kishore-a2": "\"I definitely did! We were walking along the beach in the evening, and I just couldn't keep it inside anymore. It felt completely natural.\"",
+    "qa-kishore-a1": "\"I thought she was absolutely graceful, intelligent, and carried this warm, gentle energy that made me feel instantly comfortable.\"",
+    "qa-q2": "What do you admire most about her?",
+    "qa-kishore-a2": "\"Her dedication to family, her sharp mind, and how effortlessly she brings happiness into every room she enters.\"",
     "qa-q3": "What is your favorite memory together?",
-    "qa-kishore-a3": "\"Our trip to Ooty. Getting caught in a sudden rain shower and drinking hot tea at a small roadside shop while looking at the foggy hills.\"",
+    "qa-kishore-a3": "\"Meeting with our families and celebrating our engagement blessing with everyone smiling together.\"",
     "qa-q4": "What was your first impression of Kishore?",
-    "qa-seetha-a1": "\"He was incredibly polite, attentive, and had this wonderful, goofy laugh. I was instantly drawn to how genuine and kind he was.\"",
-    "qa-q5": "Who said 'I love you' first?",
-    "qa-seetha-a2": "\"He did, but I was already planning to say it! It was the most romantic and perfect moment, hearing him express his feelings.\"",
-    "qa-q6": "What is your favorite quality about Kishore?",
-    "qa-seetha-a3": "\"His unwavering support, kindness, and how he can make me laugh even on my hardest days. He is my biggest cheerleader.\"",
+    "qa-seetha-a1": "\"He was incredibly polite, attentive, and carried himself with real dignity and kindness. I was instantly drawn to how genuine he is.\"",
+    "qa-q5": "What do you admire most about him?",
+    "qa-seetha-a2": "\"His unwavering strength, calm wisdom, and how deeply he cares for everyone around him.\"",
+    "qa-q6": "What are you looking forward to most?",
+    "qa-seetha-a3": "\"Building our home together, creating lifelong memories, and embarking on this blessed journey with divine grace.\"",
     
-    "events-title": "The Wedding Events",
-    "events-tagline": "Join us for the celebrations of our special day",
-    "event-tab-engagement": "Engagement Details",
+    "events-title": "Wedding Events & Schedule",
+    "events-tagline": "Join us for the grand celebrations of our auspicious day",
+    "event-tab-all": "All Events",
+    "event-tab-reception": "Reception Details",
     "event-tab-wedding": "Wedding Details",
     
-    "event-engagement-title": "Engagement & Welcome",
-    "event-engagement-time": "Aug 23 • 6:30 PM - 9:30 PM",
-    "event-engagement-location": "Sri Om Chairma Thirumana Mandabam, Chennai",
-    "event-engagement-desc": "Join us for the exchange of engagement rings, welcome cocktails, and an intimate family dinner under the vine trellis the evening before the festivities.",
-    
-    "event-reception-title": "The Reception",
-    "event-reception-time": "Oct 24 • 7:30 PM - 9:30 PM",
+    "event-reception-title": "Grand Reception",
+    "event-reception-time": "Saturday, 24th October 2026 • 7.00 p.m. onwards",
     "event-reception-location": "Pothi Mahal, Gummidipoondi",
-    "event-reception-desc": "Join us immediately following the pre-wedding celebrations for a grand reception dinner, live music, and congratulations under the chandeliers.",
+    "event-reception-desc": "Join us for a grand evening of celebrations, musical melodies, delectable feast, and warm felicitations under golden chandeliers.",
     
-    "event-mugurtham-title": "Mugurtham",
-    "event-mugurtham-time": "Oct 25 • 7:30 AM - 8:30 AM",
+    "event-mugurtham-title": "Sacred Wedding (Muhurtham)",
+    "event-mugurtham-time": "Sunday, 25th October 2026 • 6.30 a.m. - 7.30 a.m.",
     "event-mugurtham-location": "Pothi Mahal, Gummidipoondi",
-    "event-mugurtham-desc": "Our wedding vows and sacred marriage rites (Mugurtham) will be exchanged during the auspicious morning hours in the main hall.",
+    "event-mugurtham-desc": "Our sacred marriage rites (Muhurtham) and wedding vows will be exchanged during the auspicious morning hours in the main hall.",
     
-    "view-map": "View Location Map",
+    "view-map": "Get Directions on Google Maps",
     
-    "travel-title": "Accommodations & Travel",
-    "travel-tagline": "Information to assist you in planning your stay",
+    "travel-title": "Venue & Location Guide",
+    "travel-tagline": "Detailed location and accommodation guide for our valued guests",
     
-    "travel-stay-title": "Where to Stay",
-    "travel-stay-location": "M R Residency, Chennai",
-    "travel-stay-desc": "Premium residency located extremely close to the wedding hall (around 5-10 minutes drive), offering excellent comforts for our guests.",
-    "travel-stay-map-btn": "View Hotel Map",
-    "travel-coordinator": "For reservations and booking assistance, please contact our coordinator: +91 98765 43210",
+    "travel-stay-title": "Wedding Venue Address",
+    "travel-stay-location": "Pothi Mahal, Gummidipoondi",
+    "travel-stay-desc": "G.N.T Main Road, Gummidipoondi - 601201, Tamil Nadu. Conveniently located on the main highway with spacious parking and luxury amenities.",
+    "travel-stay-map-btn": "Open Google Maps",
+    "travel-coordinator": "For venue directions or travel queries, please contact our family coordinator: +91 98765 43210",
     
-    "travel-getting-title": "Getting There",
+    "travel-getting-title": "How To Reach Pothi Mahal",
     "travel-by-air": "By Air",
-    "travel-by-air-desc": "Chennai International Airport (MAA) is the nearest airport, located approximately 12 km from the venue and hotels.",
-    "travel-by-train": "By Train",
-    "travel-by-train-desc": "Chennai Central Rail Station (MAS) connects to all major cities in India and is around 10 km from the venue.",
-    "travel-by-cab": "Local Cab Transport",
-    "travel-by-cab-desc": "App cabs like Uber and Ola are widely available at the airport and train stations for direct transport.",
+    "travel-by-air-desc": "Chennai International Airport (MAA) is approximately 65 km via GNT Road / NH16.",
+    "travel-by-train": "By Train / Suburban Rail",
+    "travel-by-train-desc": "Gummidipoondi Railway Station is just 2 km from Pothi Mahal venue.",
+    "travel-by-cab": "By Road / Car / Bus",
+    "travel-by-cab-desc": "Located right on GNT Main Road (NH16) with easy access for private vehicles and buses.",
     
-    "special-msg-title": "A Special Message For Our Guests",
-    "special-msg-p1": "Your presence is the greatest gift we could ever receive.",
-    "special-msg-p2": "As we celebrate this beautiful milestone in our journey together, we are filled with gratitude for the love, support, and blessings that each of you has shared with us over the years.",
-    "special-msg-p3": "This day is not only about our engagement; it is about the families, friendships, and cherished relationships that have shaped our lives and brought us to this moment.",
-    "special-msg-p4": "We are honored to have you join us as we begin this new chapter together. Your laughter, encouragement, and heartfelt wishes make this celebration truly meaningful.",
-    "special-msg-p5": "Thank you for being an important part of our story. We look forward to creating beautiful memories with you and sharing a day filled with love, joy, and happiness.",
-    "special-msg-sig": "With Love & Gratitude,",
-    "special-msg-couple": "Kishore Raj & Seetha Lakshmi",
+    "special-msg-title": "A Message From The Heart",
+    "special-msg-p1": "Your presence is the greatest blessing we could ever receive.",
+    "special-msg-p2": "As we unite our lives in marriage, we are filled with profound gratitude for the love, support, and guidance each of you has bestowed upon us.",
+    "special-msg-p3": "This auspicious day is a celebration of family, friendship, faith, and the sacred bond that unites our two families.",
+    "special-msg-p4": "We cordially request the pleasure of your company to grace this occasion and bless us as we begin our new journey together.",
+    "special-msg-sig": "With Love, Respect & Gratitude,",
+    "special-msg-couple": "S. Kishore Raj & K. Seethalakshmi",
     
-    "gallery-title-header": "Gallery",
-    "gallery-tagline": "We will share beautiful photos, videos, and highlights of our engagement ceremony here after the event",
-    "gallery-lock-title": "Our Engagement Memories",
-    "gallery-lock-desc": "We will share beautiful photos, videos, and highlights of our engagement ceremony here after the event.",
-    "gallery-lock-btn": "View Memories Gallery",
-    "gallery-all": "All Photos",
-    "gallery-engagement": "Engagement",
-    "gallery-prewedding": "Pre-Wedding",
+    "closing-blessing": "\"Your gracious presence, love and blessings will make our special day truly memorable.\"",
+
+    "gallery-title-header": "Photo Gallery",
+    "gallery-tagline": "A glimpse of our cherished moments and wedding highlights",
+    "gallery-lock-title": "Wedding Memories Gallery",
+    "gallery-lock-desc": "High-resolution photographs and event video highlights will be published here after our wedding ceremony.",
+    "gallery-lock-btn": "Explore Gallery",
+    "gallery-all": "All Highlights",
+    "gallery-engagement": "Ceremony",
+    "gallery-prewedding": "Portraits",
     
     "guestbook-title": "Congratulatory Guestbook",
-    "guestbook-tagline": "Leave a message of love and blessings for the couple",
+    "guestbook-tagline": "Leave your warm wishes and divine blessings for the couple",
     "gb-label-name": "Your Name",
-    "gb-placeholder-name": "Enter your name",
-    "gb-label-msg": "Your Blessings / Message",
-    "gb-placeholder-msg": "Type your congratulations here...",
+    "gb-placeholder-name": "Enter your full name",
+    "gb-label-msg": "Your Blessings & Message",
+    "gb-placeholder-msg": "Write your heartfelt wishes for Kishore & Seethalakshmi...",
     "gb-btn-post": "Post Blessing",
     "wishes-title": "Wishes & Blessings Wall",
-    "wishes-subtitle": "Blessings and messages from our family and friends.",
+    "wishes-subtitle": "Heartfelt messages from our beloved family and friends.",
     "wishes-loading": "Loading wishes...",
     
-    "footer-tagline": "Two hearts united in love and faith. We look forward to celebrating our engagement journey with you.",
-    "footer-signoff": "With Love,",
-    "footer-couple": "Vedha Kishore Raj & SeethaLakshmi",
-    "footer-copyright": "© 2026 Vedha Kishore & SeethaLakshmi. All rights reserved."
+    "footer-tagline": "Two hearts united in love and faith. We look forward to celebrating our auspicious wedding with you.",
+    "footer-signoff": "With Love & Gratitude,",
+    "footer-couple": "S. Kishore Raj & K. Seethalakshmi",
+    "footer-copyright": "© 2026 S. Kishore Raj & K. Seethalakshmi. All rights reserved."
   },
   ta: {
     "nav-home": "முகப்பு",
@@ -143,23 +155,38 @@ window.translations = {
     "nav-guestbook": "வாழ்த்துப் புத்தகம்",
     "nav-wishes": "வாழ்த்துகள்",
     
-    "env-subtitle": "நிச்சயதார்த்த அழைப்பிதழ்",
-    "env-names": "வேதா கிஷோர் ராஜ் & சீதாலட்சுமி",
+    "env-subtitle": "திருமண அழைப்பிதழ்",
+    "env-names": "எஸ். கிஷோர் ராஜ் & கே. சீதாலட்சுமி",
     "env-prompt": "உங்களை அன்போடு அழைக்கிறோம்",
     "env-action": "திறக்க கிளிக் செய்யவும்",
     
-    "hero-save-date": "தேதியை குறிக்கவும்",
-    "hero-couple-names": "வேதா கிஷோர் ராஜ் <span class=\"ampersand\">&</span> சீதாலட்சுமி",
-    "hero-tab-engagement": "நிச்சயதார்த்தம்",
+    "motto": "|| ஸ்ரீ கணேசாய நமஹ ||",
+    "badge-left": "இரு இதயங்கள் - ஒரு அழகிய பயணம்",
+    "badge-right": "ஒன்றாக இணையும் பிரகாசமான எதிர்காலம்",
+
+    "hero-save-date": "தேதியைக் குறிக்கவும்",
+    "hero-couple-names": "எஸ். கிஷோர் ராஜ் <span class=\"ampersand\">&</span> கே. சீதாலட்சுமி",
+    "hero-poem": "\"இறைவனால் ஆசீர்வதிக்கப்பட்ட காதல், இப்போது மலரும் அழகிய தருணம். இரு இதயங்கள், இரு ஆன்மாக்கள், ஒன்றாக இணைந்து, அன்பு மற்றும் மகிழ்ச்சியின் வாழ்நாள் பயணத்தைத் தொடங்குகின்றன.\"",
+    
+    "hero-tab-reception": "வரவேற்பு",
     "hero-tab-wedding": "திருமணம்",
     
-    "hero-date-engagement": "ஆகஸ்ட் 23, 2026",
-    "hero-venue-engagement": "ஸ்ரீ ஓம் சேர்மன் திருமண மண்டபம் • சென்னை, இந்தியா",
-    "hero-date-wedding": "அக்டோபர் 25, 2026",
+    "hero-date-wedding": "ஞாயிற்றுக்கிழமை, அக்டோபர் 25, 2026",
     "hero-venue-wedding": "போத்தி மஹால் • கும்மிடிப்பூண்டி, தமிழ்நாடு",
-    
-    "welcome-title": "எங்கள் நிச்சயதார்த்த இணையதளத்திற்கு வரவேற்பு",
-    "welcome-text": "எங்கள் நிச்சயதார்த்த இணையதளத்திற்கு உங்களை அன்போடு வரவேற்கிறோம். எங்கள் வாழ்நாள் பயணத்தின் அடுத்த அடியை எடுத்து வைப்பதில் நாங்கள் பெரும் மகிழ்ச்சி அடைகிறோம். இந்த இனிய தருணத்தைக் கொண்டாட எங்களுடன் நீங்கள் இணைவது எங்களுக்கு எல்லையற்ற மகிழ்ச்சியைத் தரும். நிகழ்வு விவரங்களை ஆராயவும், உங்களது வருகையை உறுதிப்படுத்தவும் இந்த இணையதளத்தைப் பயன்படுத்த வேண்டுகிறோம்.",
+    "hero-date-reception": "சனிக்கிழமை, அக்டோபர் 24, 2026",
+    "hero-venue-reception": "போத்தி மஹால் • கும்மிடிப்பூண்டி, தமிழ்நாடு",
+
+    "invitation-banner": "எங்கள் குடும்பத்தாருடன் இணைந்து, எங்கள் அன்பிற்குரிய குடும்பத்தினரையும் நண்பர்களையும் எங்களது சுபமுகூர்த்த திருமண விழாவிற்கு அன்போடு அழைக்கிறோம்.",
+    "groom-name": "எஸ். கிஷோர் ராஜ், M.C.A.",
+    "groom-role": "(உதவி மேலாளர் - KM என்டர்பிரைசஸ்)",
+    "groom-parents": "(திரு. L. சீனிவாசன் & திருமதி. S. தேவி அவர்களின் திருமகன்)",
+    "bride-name": "கே. சீதாலட்சுமி, B.Com.",
+    "bride-role": "(மனிதவள மேலாளர் - பிளேஸ்மென்ட் பாயிண்ட் சொல்யூஷன்ஸ்)",
+    "bride-parents": "(காலஞ்சென்ற திரு. G. குப்பன் & திருமதி. K. மேகலா அவர்களின் திருமகள்)",
+    "and-text": "மற்றும்",
+
+    "welcome-title": "எங்கள் திருமண விழா இணையதளத்திற்கு வரவேற்பு",
+    "welcome-text": "எங்கள் திருமண இணையதளத்திற்கு உங்களை அன்போடு வரவேற்கிறோம். எங்கள் வாழ்நாள் பயணத்தின் அடுத்த அடியை எடுத்து வைப்பதில் நாங்கள் பெரும் மகிழ்ச்சி அடைகிறோம். இந்த இனிய தருணத்தைக் கொண்டாட எங்களுடன் நீங்கள் இணைவது எங்களுக்கு எல்லையற்ற மகிழ்ச்சியைத் தரும்.",
     
     "countdown-title": "மங்கல நாள் கவுண்ட்டவுன்",
     "days": "நாட்கள்",
@@ -167,164 +194,105 @@ window.translations = {
     "minutes": "நிமிடங்கள்",
     "seconds": "நொடிகள்",
     
-    "lock-msg-hero": "ஆகஸ்ட் 23, மாலை 8:00 மணி வரை பூட்டப்பட்டுள்ளது",
-    "lock-msg-countdown": "கவுண்ட்டவுன் பூட்டப்பட்டுள்ளது",
+    "lock-msg-hero": "அக்டோபர் 25, காலை 6:30 மணி வரை",
+    "lock-msg-countdown": "கவுண்ட்டவுன் இயங்குகிறது",
     "lock-msg-locked": "பூட்டப்பட்டுள்ளது",
-    "lock-msg-gallery": "நிச்சயதார்த்தத்திற்குப் பின் கிடைக்கும்",
+    "lock-msg-gallery": "திருமணத்திற்குப் பின் கிடைக்கும்",
     
     "story-title": "எங்கள் காதல் கதை",
     "story-subtitle": "ஒவ்வொரு காதல் கதையும் அழகானது, ஆனால் எங்களது கதை எங்களுக்கு மிகவும் ஸ்பெஷலானது.",
     "story-met-title": "முதல் சந்திப்பு",
-    "story-met-body": "அது ஒரு எளிய அறிமுகத்துடன் தொடங்கியது, ஆனால் விரைவில் ஒரு அழகான பிணைப்பாக வளர்ந்தது. இரவு நேர உரையாடல்கள் மற்றும் பகிர்ந்துகொண்ட கனவுகள் மூலம், எங்கள் வாழ்நாள் துணையை நாங்கள் கண்டுபிடித்தோம்.",
+    "story-met-body": "குடும்பங்களின் ஆசியோடு, பரஸ்பர மரியாதையுடனும் அன்படனும் எங்கள் வாழ்நாள் பயணத்தின் முதல் அடியை எடுத்து வைத்தோம்.",
     "story-proposal-title": "திருமண முன்மொழிவு",
-    "story-proposal-body": "நட்சத்திரங்கள் மின்னும் வானத்தின் கீழ், என்றென்றும் இணைந்திருப்போம் என்ற வாக்குறுதியுடன், வாழ்க்கையின் அனைத்து பக்கங்களிலும் கைகோர்த்து நடக்க உறுதியளித்தோம்.",
-    "story-journey-title": "எங்களது பயணம்",
-    "story-journey-body": "இப்போது, கணவன் மனைவியாக எங்கள் புதிய வாழ்க்கைப் பயணத்தை எழுதத் தயாராக நிற்கிறோம். எங்கள் அன்பான குடும்பத்தினர் மற்றும் நண்பர்களுடன் இந்த மைல்கல்லைப் பகிர்ந்துகொள்வதில் பெருமகிழ்ச்சி அடைகிறோம்.",
+    "story-proposal-body": "பெரியோர்களின் ஆசியுடன், என்றென்றும் இணைந்திருப்போம் என்ற வாக்குறுதியுடன் வாழ்வின் அனைத்துப் பக்கங்களிலும் கைகோர்த்து நடக்க உறுதியளித்தோம்.",
+    "story-journey-title": "எங்கள் பயணம்",
+    "story-journey-body": "இப்போது கணவன் மனைவியாக எங்கள் அடுத்த அத்தியாயத்தைத் தொடங்கக் காத்திருக்கிறோம்.",
     
-    "qa-title": "அவரும் அவளும்",
-    "qa-tagline": "நாங்கள் ஒருவரைப் பற்றி ஒருவர் சில சுவாரஸ்யமான கேள்விகளுக்குப் பதிலளித்துள்ளோம்",
-    "qa-kishore-title": "கிஷோரின் பதில்கள்",
-    "qa-seetha-title": "சீதாவின் பதில்கள்",
-    "qa-q1": "சீதாவைப் பற்றிய முதல் அபிப்ராயம் என்ன?",
-    "qa-kishore-a1": "\"அவள் மிகவும் அழகாகவும், என்னைக் கவர்ந்த அமைதியான குணத்துடனும் இருந்தாள். அவளைப் பார்த்தவுடன் என் மனதில் ஒரு புதிய மகிழ்ச்சி பிறந்தது.\"",
-    "qa-q2": "முதலில் 'ஐ லவ் யூ' சொன்னது யார்?",
-    "qa-kishore-a2": "\"நான் தான் முதலில் கூறினேன்! ஒரு மாலை வேளையில் கடற்கரையில் உலாவிக்கொண்டிருந்த போது, என் மனதில் இருந்த காதலை அவளிடம் தெரிவித்தேன். அது மிகவும் இயல்பாக அமைந்தது.\"",
-    "qa-q3": "இருவரும் இணைந்து கழித்த சிறந்த தருணம் எது?",
-    "qa-kishore-a3": "\"எங்களது ஊட்டி பயணம். மலைச் சாரலில் திடீர் மழையில் நனைந்துகொண்டே, அந்த பனிமூட்டமான மலைகளை ரசித்து ஒரு சிறிய கடையில் சூடான தேநீர் அருந்தியது என்றும் மறக்க முடியாதது.\"",
-    "qa-q4": "கிஷோரைப் பற்றிய முதல் அபிப்ராயம் என்ன?",
-    "qa-seetha-a1": "\"அவர் மிகவும் மரியாதையானவராகவும், கனிவானவராகவும் இருந்தார். அவரது கலகலப்பான சிரிப்பும் உண்மையான குணமும் என்னை அவரிடம் மிகவும் ஈர்த்தது.\"",
-    "qa-q5": "முதலில் 'ஐ லவ் யூ' சொன்னது யார்?",
-    "qa-seetha-a2": "\"அவர்தான் முதலில் சொன்னார், ஆனால் நானும் அதற்கு தயாராகவே இருந்தேன்! அவர் தன் காதலை வெளிப்படுத்திய அந்த நிமிடம் என் வாழ்க்கையின் மிகவும் இனிமையான தருணம்.\"",
-    "qa-q6": "கிஷோரிடம் உங்களுக்கு மிகவும் பிடித்த குணம் எது?",
-    "qa-seetha-a3": "\"அவரது சளைக்காத ஆதரவு, பரிவு மற்றும் எவ்வளவு கடினமான நாளிலும் என்னைச் சிரிக்க வைக்கும் அவரது குணம். அவர் தான் என் வாழ்வின் பெரும் பலம்.\"",
+    "qa-title": "நாங்கள் பகிர்ந்த கருத்துகள்",
+    "qa-tagline": "எங்களைப் பற்றி நாங்கள் பகிர்ந்துகொண்ட சில தகவல்கள்",
+    "qa-kishore-title": "கிஷோர் பகிர்ந்தவை",
+    "qa-seetha-title": "சீதாலட்சுமி பகிர்ந்தவை",
+    "qa-q1": "சீதாலட்சுமியைப் பற்றிய முதல் எண்ணம்?",
+    "qa-kishore-a1": "\"அவர் மிகவும் அன்பானவர், புத்திசாலி மற்றும் குடும்பத்தின் மீது அதிக பற்றுடையவர்.\"",
+    "qa-q2": "அவரிடம் உங்களுக்கு மிகவும் பிடித்த குணம்?",
+    "qa-kishore-a2": "\"அவரது அமைதியான குணமும், அனைவரையும் மகிழ்ச்சியாக வைத்துக்கொள்ளும் பண்பும்.\"",
+    "qa-q3": "உங்களுக்குப் பிடித்த நினைவுகள்?",
+    "qa-kishore-a3": "\"எங்கள் குடும்பத்தினர் அனைவரும் ஒன்றாக இணைந்து எங்களை வாழ்த்திய தருணம்.\"",
+    "qa-q4": "கிஷோரைப் பற்றிய முதல் எண்ணம்?",
+    "qa-seetha-a1": "\"அவர் மிகவும் மரியாதையானவர், கனிவானவர் மற்றும் பொறுப்பானவர்.\"",
+    "qa-q5": "அவரிடம் உங்களுக்கு மிகவும் பிடித்தது?",
+    "qa-seetha-a2": "\"அவரது தெளிவான சிந்தனையும், மற்றவர்களுக்கு உதவும் குணமும்.\"",
+    "qa-q6": "எதிர்காலத்தைப் பற்றிய எதிர்பார்ப்பு?",
+    "qa-seetha-a3": "\"இறைவன் அருளோடு ஒரு அழகான குடும்பத்தைக் கட்டி எழுப்புவது.\"",
     
     "events-title": "திருமண நிகழ்வுகள்",
-    "events-tagline": "எங்கள் திருமண நன்னாளின் கொண்டாட்டங்களில் கலந்து கொள்ள உங்களை அன்புடன் அழைக்கிறோம்",
-    "event-tab-engagement": "நிச்சயதார்த்த விவரங்கள்",
+    "events-tagline": "எங்கள் மங்கல நிகழ்வுகளில் கலந்துகொண்டு எங்களை வாழ்த்த வேண்டுகிறோம்",
+    "event-tab-all": "அனைத்து நிகழ்வுகள்",
+    "event-tab-reception": "வரவேற்பு விவரங்கள்",
     "event-tab-wedding": "திருமண விவரங்கள்",
     
-    "event-engagement-title": "நிச்சயதார்த்தம் & வரவேற்பு",
-    "event-engagement-time": "ஆகஸ்ட் 23 • மாலை 6:30 முதல் 9:30 வரை",
-    "event-engagement-location": "ஸ்ரீ ஓம் சேர்மன் திருமண மண்டபம், சென்னை",
-    "event-engagement-desc": "நிச்சயதார்த்த மோதிர மாற்று விழா மற்றும் சுவையான இரவு விருந்துடன் எங்களது திருமணப் பயணத்தைத் தொடங்கும் நன்நாளில் எங்களோடு கலந்து கொண்டு வாழ்த்துங்கள்.",
-    
-    "event-reception-title": "வரவேற்பு விழா",
-    "event-reception-time": "அக்டோபர் 24 • மாலை 7:30 முதல் 9:30 வரை",
+    "event-reception-title": "திருமண வரவேற்பு (Reception)",
+    "event-reception-time": "சனிக்கிழமை, 24 அக்டோபர் 2026 • மாலை 7.00 மணி முதல்",
     "event-reception-location": "போத்தி மஹால், கும்மிடிப்பூண்டி",
-    "event-reception-desc": "திருமணத்திற்கு முந்தைய இந்த வரவேற்பு நல்விழாவில் சுவையான விருந்து மற்றும் இனிய இசையுடன் எங்களை வாழ்த்தி மகிழ்விக்க அன்போடு அழைக்கிறோம்.",
+    "event-reception-desc": "இனிமையான இசை மற்றும் சுவையான விருந்துடன் நடைபெறும் திருமண வரவேற்பு விழாவில் கலந்துகொள்ள அன்போடு அழைக்கிறோம்.",
     
-    "event-mugurtham-title": "திருமண முகூர்த்தம்",
-    "event-mugurtham-time": "அக்டோபர் 25 • காலை 7:30 முதல் 8:30 வரை",
+    "event-mugurtham-title": "சுபமுகூர்த்த திருமணம் (Wedding)",
+    "event-mugurtham-time": "ஞாயிற்றுக்கிழமை, 25 அக்டோபர் 2026 • காலை 6.30 - 7.30 மணிக்குள்",
     "event-mugurtham-location": "போத்தி மஹால், கும்மிடிப்பூண்டி",
-    "event-mugurtham-desc": "எங்களது மங்கல நாண் பூட்டி, இல்வாழ்க்கையைத் தொடங்கும் மங்கல முகூர்த்த நல்விழாவில் கலந்து கொண்டு எங்களை ஆசீர்வதிக்குமாறு வேண்டுகிறோம்.",
+    "event-mugurtham-desc": "எங்களது சுபமுகூர்த்தத் திருமணம் காலை மங்கல நேரத்தில் மண்டபத்தில் நடைபெறும்.",
     
-    "view-map": "வரைபடத்தில் காண்க",
+    "view-map": "கூகுள் மேப்பில் வழியைப் பார்க்க",
     
-    "travel-title": "தங்குமிடம் & பயணம்",
-    "travel-tagline": "நீங்கள் தங்குவதற்கும் பயணத்திற்கும் தேவையான தகவல்கள்",
+    "travel-title": "திருமண மண்டப முகவரி",
+    "travel-tagline": "மண்டபத்திற்கு வருவதற்கான வழிகாட்டி",
     
-    "travel-stay-title": "தங்கும் வசதி",
-    "travel-stay-location": "எம் ஆர் ரெசிடென்சி, சென்னை",
-    "travel-stay-desc": "திருமண மண்டபத்திற்கு மிக அருகில் (சுமார் 5-10 நிமிட பயண தூரம்) அமைந்துள்ள இந்த தங்குமிடத்தில் அனைத்து வசதிகளும் எங்களுடைய விருந்தினர்களுக்காக செய்யப்பட்டுள்ளது.",
-    "travel-stay-map-btn": "வரைபடத்தில் தங்குமிடம்",
-    "travel-coordinator": "பதிவு மற்றும் உதவிக்கு, எங்களது ஒருங்கிணைப்பாளரைத் தொடர்பு கொள்ளவும்: +91 98765 43210",
+    "travel-stay-title": "போத்தி மஹால் முகவரி",
+    "travel-stay-location": "போத்தி மஹால், கும்மிடிப்பூண்டி",
+    "travel-stay-desc": "G.N.T மெயின் ரோடு, கும்மிடிப்பூண்டி - 601201, தமிழ்நாடு. தேசிய நெடுஞ்சாலையில் அமைந்துள்ள சொகுசு திருமண மண்டபம்.",
+    "travel-stay-map-btn": "கூகுள் மேப்பில் பார்க்க",
+    "travel-coordinator": "தொடர்புக்கு / உதவிக்கு: +91 98765 43210",
     
-    "travel-getting-title": "பயண வழிகள்",
-    "travel-by-air": "விமானம் மூலம்",
-    "travel-by-air-desc": "சென்னை சர்வதேச விமான நிலையம் (MAA) திருமண மண்டபத்திற்கு அருகில் அமைந்துள்ள விமான நிலையம் ஆகும்.",
-    "travel-by-train": "இரயில் மூலம்",
-    "travel-by-train-desc": "சென்னை சென்ட்ரல் இரயில் நிலையம் (MAS) மண்டபத்தில் இருந்து சுமார் 10 கி.மீ தூரத்தில் அமைந்துள்ளது.",
-    "travel-by-cab": "உள்ளூர் கார் வசதி",
-    "travel-by-cab-desc": "விமான நிலையம் மற்றும் இரயில் நிலையங்களில் இருந்து நேரடியாக வர உபர் (Uber), ஓலா (Ola) போன்ற கார் வசதிகள் உள்ளன.",
+    "travel-getting-title": "மண்டபத்தை அடைவது எப்படி",
+    "travel-by-air": "விமான நிலையம் வழியாக",
+    "travel-by-air-desc": "சென்னை சர்வதேச விமான நிலையத்திலிருந்து சுமார் 65 கி.மீ.",
+    "travel-by-train": "ரயில் நிலையம் வழியாக",
+    "travel-by-train-desc": "கும்மிடிப்பூண்டி ரயில் நிலையத்திலிருந்து வெறும் 2 கி.மீ தொலைவு.",
+    "travel-by-cab": "சாலை வழியாக",
+    "travel-by-cab-desc": "GNT தேசிய நெடுஞ்சாலையிலேயே (NH16) மண்டபம் அமைந்துள்ளது.",
     
-    "special-msg-title": "விருந்தினர்களுக்கான சிறப்புச் செய்தி",
-    "special-msg-p1": "உங்களது வருகையே நாங்கள் பெறும் மிகச்சிறந்த பரிசாகும்.",
-    "special-msg-p2": "எங்கள் திருமணப் பயணத்தைத் தொடங்கும் இந்த மங்கல நாளில், உங்களது அன்பு, ஆதரவு மற்றும் ஆசிகளைப் பெறுவதில் நாங்கள் பெருமகிழ்ச்சி அடைகிறோம்.",
-    "special-msg-p3": "இந்த நாள் எங்களது இணைப்பை மட்டும் குறிப்பதல்ல; எங்களது குடும்பங்கள், நட்பு மற்றும் உறவுகளின் அன்போடு எங்கள் வாழ்க்கையைத் தொடங்குவதாகும்.",
-    "special-msg-p4": "புதிய வாழ்க்கையைத் தொடங்கும் எங்களை உங்களது மனமார்ந்த வாழ்த்துகளுடன் ஆசீர்வதிக்க அன்போடு அழைக்கிறோம்.",
-    "special-msg-p5": "எங்கள் கதையில் ஒரு முக்கிய அங்கமாக இருப்பதற்கு நன்றி. இந்த மங்கல நாளில் உங்களோடு இணைந்து அழகான நினைவுகளை உருவாக்க ஆவலுடன் காத்திருக்கிறோம்.",
-    "special-msg-sig": "அன்புடன்,",
-    "special-msg-couple": "கிஷோர் ராஜ் & சீதா லட்சுமி",
+    "special-msg-title": "எங்கள் அன்பான செய்தி",
+    "special-msg-p1": "உங்களது வருகையே எங்களுக்கு மிகச்சிறந்த ஆசீர்வாதம்.",
+    "special-msg-p2": "நாங்கள் வாழ்க்கையில் இணையும் இந்த இனிய நாளில், உங்களது அன்பிற்கும் ஆசிகளுக்கும் எங்களது மனமார்ந்த நன்றிகள்.",
+    "special-msg-p3": "இந்த நன்னாள் இரு குடும்பங்களும் இணையும் மங்கல திருநாள்.",
+    "special-msg-p4": "எங்கள் புதிய பயணத்தை வாழ்த்தி ஆசீர்வதிக்க உங்களை அன்போடு அழைக்கிறோம்.",
+    "special-msg-sig": "அன்புடன் & நன்றியுடன்,",
+    "special-msg-couple": "எஸ். கிஷோர் ராஜ் & கே. சீதாலட்சுமி",
     
-    "gallery-title-header": "புகைப்படத் தொகுப்பு",
-    "gallery-tagline": "எங்கள் நிச்சயதார்த்த விழா மற்றும் திருமண தருணங்களின் அழகான புகைப்படங்களை இங்கே உங்களுடன் பகிர்ந்து கொள்வோம்",
-    "gallery-lock-title": "எங்கள் நிச்சயதார்த்த நினைவுகள்",
-    "gallery-lock-desc": "நிச்சயதார்த்த விழாவின் அழகான புகைப்படங்கள் மற்றும் சிறப்பம்சங்களை விழாவிற்குப் பிறகு இங்கே பகிர்ந்து கொள்வோம்.",
-    "gallery-lock-btn": "புகைப்படங்களை காண்க",
+    "closing-blessing": "\"உங்களின் பொன்னான வருகையும், அன்பும், ஆசிகளும் எங்களது மங்கல நாளை மறக்க முடியாததாக மாற்றும்.\"",
+
+    "gallery-title-header": "புகைப்படங்கள்",
+    "gallery-tagline": "எங்கள் திருமண நன்னாளின நினைவலைகள்",
+    "gallery-lock-title": "திருமண புகைப்படங்கள்",
+    "gallery-lock-desc": "திருமண நிகழ்வின் புகைப்படங்கள் விரைவில் இங்கே பதிவேற்றம் செய்யப்படும்.",
+    "gallery-lock-btn": "புகைப்படங்களைப் பார்க்க",
     "gallery-all": "அனைத்தும்",
-    "gallery-engagement": "நிச்சயதார்த்தம்",
-    "gallery-prewedding": "திருமணத்திற்கு முந்தைய",
+    "gallery-engagement": "திருமணம்",
+    "gallery-prewedding": "புகைப்படங்கள்",
     
-    "guestbook-title": "நல்வாழ்த்துப் பதிவேடு",
-    "guestbook-tagline": "மணமக்களுக்கு உங்களது அன்பான வாழ்த்துகளையும் ஆசிகளையும் பகிர்ந்து கொள்ளுங்கள்",
+    "guestbook-title": "வாழ்த்துப் புத்தகம்",
+    "guestbook-tagline": "தம்பதியருக்கு உங்களது நல்வாழ்த்துகளைப் பதியவும்",
     "gb-label-name": "உங்களது பெயர்",
-    "gb-placeholder-name": "உங்களது பெயரை உள்ளிடவும்",
+    "gb-placeholder-name": "உங்களது முழு பெயரை உள்ளிடவும்",
     "gb-label-msg": "உங்களது நல்வாழ்த்துகள் / செய்தி",
-    "gb-placeholder-msg": "உங்களது நல்வாழ்த்துகளை இங்கே எழுதவும்...",
+    "gb-placeholder-msg": "கிஷோர் & சீதாலட்சுமிக்கு உங்களது வாழ்த்துகளை எழுதவும்...",
     "gb-btn-post": "வாழ்த்தைப் பதிவிடவும்",
     "wishes-title": "அன்பானவர்களின் வாழ்த்துச் சுவர்",
     "wishes-subtitle": "குடும்பத்தினர் மற்றும் நண்பர்களின் வாழ்த்துகள் மற்றும் ஆசிகள்.",
     "wishes-loading": "வாழ்த்துகள் ஏற்றப்படுகின்றன...",
     
-    "footer-tagline": "இரு இதயங்கள் அன்பிலும் நம்பிக்கையிலும் இணைகின்றன. எங்களது நிச்சயதார்த்தப் பயணத்தில் உங்களுடன் கொண்டாடுவதை எதிர்நோக்குகிறோம்.",
-    "footer-signoff": "அன்புடன்,",
-    "footer-couple": "வேதா கிஷோர் ராஜ் & சீதாலட்சுமி",
-    "footer-copyright": "© 2026 வேதா கிஷோர் & சீதாலட்சுமி. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
+    "footer-tagline": "இரு இதயங்கள் அன்பிலும் நம்பிக்கையிலும் இணைகின்றன. எங்களது திருமணப் பயணத்தில் உங்களுடன் கொண்டாடுவதை எதிர்நோக்குகிறோம்.",
+    "footer-signoff": "அன்புடன் & நன்றியுடன்,",
+    "footer-couple": "எஸ். கிஷோர் ராஜ் & கே. சீதாலட்சுமி",
+    "footer-copyright": "© 2026 எஸ். கிஷோர் ராஜ் & கே. சீதாலட்சுமி. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
   }
 };
-
-window.currentLang = localStorage.getItem('lang') || 'en';
-
-window.translatePage = function(lang) {
-  window.currentLang = lang;
-  localStorage.setItem('lang', lang);
-  
-  // Toggle class on body
-  document.body.classList.toggle('lang-ta', lang === 'ta');
-  
-  // Update toggle button visual state (English -> தமிழ், Tamil -> English)
-  const langToggle = document.getElementById('lang-toggle');
-  if (langToggle) {
-    langToggle.textContent = lang === 'ta' ? 'English' : 'தமிழ்';
-  }
-
-  const trans = window.translations[lang];
-  if (!trans) return;
-
-  // Translate all data-translate elements
-  document.querySelectorAll('[data-translate]').forEach(el => {
-    const key = el.getAttribute('data-translate');
-    if (trans[key]) {
-      const hasTextLong = el.querySelector('.nav-text-long');
-      const hasTextShort = el.querySelector('.nav-text-short');
-            if (hasTextLong || hasTextShort) {
-        if (key === 'nav-story') {
-          el.innerHTML = `<span class="nav-text-long">${lang === 'ta' ? 'எங்கள் ' : 'Our '}</span>${lang === 'ta' ? 'கதை' : 'Story'}`;
-        } else if (key === 'nav-guestbook') {
-          el.innerHTML = `<span class="nav-text-long">${lang === 'ta' ? 'வாழ்த்துப் புத்தகம்' : 'Guestbook'}</span><span class="nav-text-short">${lang === 'ta' ? 'வாழ்த்துகள்' : 'Wishes'}</span>`;
-        }
-      } else if (trans[key].includes('<span')) {
-        el.innerHTML = trans[key];
-      } else {
-        el.textContent = trans[key];
-      }
-    }
-  });
-
-  // Translate placeholders
-  document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
-    const key = el.getAttribute('data-translate-placeholder');
-    if (trans[key]) {
-      el.placeholder = trans[key];
-    }
-  });
-
-  // Dispatch global event for other scripts (main.js)
-  const event = new CustomEvent('languageChanged', { detail: { lang } });
-  document.dispatchEvent(event);
-};
-
-// Auto-run translation on load
-document.addEventListener('DOMContentLoaded', () => {
-  window.translatePage(window.currentLang);
-});

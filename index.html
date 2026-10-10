@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="You are cordially invited to the wedding of S. Kishore Raj and K. Seethalakshmi. Save the date, view event details, explore our gallery, and send your RSVP & wishes online.">
-  <title>The Wedding of S. Kishore Raj & K. Seethalakshmi</title>
+    content="You are cordially invited to the engagement of Kishore Raj and Seethalakshmi. Save the date, view event details, explore our gallery, and RSVP online.">
+  <title>The Engagement of Vedha Kishore Raj & SeethaLakshmi</title>
 
   <!-- Premium Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap"
     rel="stylesheet">
 
   <!-- FontAwesome for Premium Icons -->
@@ -32,9 +32,8 @@
 
     <div class="envelope-seal-container">
       <div class="envelope-card glass-card">
-        <p class="motto-top" data-translate="motto">|| Shree Ganeshaya Namah ||</p>
-        <p class="envelope-subtitle" data-translate="env-subtitle">Wedding Invitation</p>
-        <h2 class="envelope-names" data-translate="env-names">S. Kishore Raj & K. Seethalakshmi</h2>
+        <p class="envelope-subtitle" data-translate="env-subtitle">Engagement Invitation</p>
+        <h2 class="envelope-names" data-translate="env-names">Vedha Kishore Raj & SeethaLakshmi</h2>
         <div class="gold-divider-small"></div>
         <p class="envelope-prompt" data-translate="env-prompt">You are cordially invited</p>
         <button id="open-invitation-btn" class="wax-seal" aria-label="Open Invitation">
@@ -68,11 +67,14 @@
     <ul class="nav-links">
       <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> <span
             data-translate="nav-home">Home</span></a></li>
-      <li><a href="#story" class="nav-link"><i class="fa-solid fa-heart"></i> <span
-            data-translate="nav-story"><span class="nav-text-long">Our </span>Story</span></a></li>
+      <!-- Temporarily closed Story nav item -->
+      <li style="display: none;"><a href="#story" class="nav-link"><i class="fa-solid fa-heart"></i> <span
+            data-translate="nav-story"><span class="nav-text-long">Our
+            </span>Story</span></a></li>
       <li><a href="#events" class="nav-link"><i class="fa-solid fa-calendar-days"></i> <span
             data-translate="nav-events">Events</span></a></li>
-      <li><a href="#gallery" class="nav-link"><i class="fa-solid fa-images"></i> <span
+      <!-- Temporarily closed Gallery nav item -->
+      <li style="display: none;"><a href="#gallery" class="nav-link"><i class="fa-solid fa-images"></i> <span
             data-translate="nav-gallery">Gallery</span></a></li>
       <li><a href="#guestbook" class="nav-link"><i class="fa-solid fa-book-open"></i> <span
             data-translate="nav-guestbook"><span class="nav-text-long">Guestbook</span><span
@@ -94,76 +96,114 @@
             <span class="gold-corner bottom-left"></span>
             <span class="gold-corner bottom-right"></span>
 
-            <!-- Top Ganesha Emblem & Side Badges -->
-            <div class="motto-badge-container">
-              <span class="side-badge badge-left" data-translate="badge-left">TWO HEARTS ONE BEAUTIFUL JOURNEY</span>
-              <span class="card-motto" data-translate="motto">|| Shree Ganeshaya Namah ||</span>
-              <span class="side-badge badge-right" data-translate="badge-right">TOGETHER A BRIGHTER TOMORROW</span>
-            </div>
-
             <p class="hero-subtitle" data-translate="hero-save-date">Save The Date</p>
-            <h1 class="hero-couple-names" data-translate="hero-couple-names">S. Kishore Raj <span
-                class="ampersand">&</span> K. Seethalakshmi</h1>
-
-            <!-- Divine Poem -->
-            <p class="hero-poem" data-translate="hero-poem">"A love already blessed by God, now finds its beautiful moment to bloom. Two hearts, two souls, coming together as one, to begin a lifetime of love, togetherness, and happiness."</p>
+            <h1 class="hero-couple-names" data-translate="hero-couple-names">Vedha Kishore Raj <span
+                class="ampersand">&</span> SeethaLakshmi</h1>
 
             <!-- Hero Event Tabs -->
             <div class="hero-tabs">
-              <button class="hero-tab active" data-countdown-type="wedding" data-translate="hero-tab-wedding">Wedding</button>
-              <button class="hero-tab" data-countdown-type="reception" data-translate="hero-tab-reception">Reception</button>
+              <button class="hero-tab active" data-countdown-type="engagement"
+                data-translate="hero-tab-engagement">Engagement</button>
+              <button class="hero-tab" data-countdown-type="wedding" data-translate="hero-tab-wedding">Wedding</button>
             </div>
 
-            <div id="hero-details-lock-wrapper">
+            <div id="hero-details-lock-wrapper" class="locked-container">
               <div id="hero-details-content">
-                <p id="hero-date" class="hero-details">Sunday, October 25, 2026</p>
-                <p id="hero-venue" class="hero-venue">Pothi Mahal • Gummidipoondi, Tamil Nadu</p>
-                <a href="#events" class="btn-secondary" style="margin-top: 1.2rem; width: auto; display: inline-block;">View Event Details & Map</a>
+                <p id="hero-date" class="hero-details">August 23, 2026</p>
+                <p id="hero-venue" class="hero-venue">Sri Om Chairma Thirumana Mandabam • Chennai, Tamilnadu</p>
+                <button id="hero-address-btn" class="btn-secondary"
+                  style="margin-top: 1.2rem; width: auto; display: inline-block;">Click Here for Address
+                  Details</button>
+              </div>
+              <div id="hero-lock-overlay" class="lock-overlay hidden-fade">
+                <div class="lock-chain-wrapper">
+                  <!-- Premium Metallic Gold Chain with X SVG -->
+                  <svg class="gold-chain-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <linearGradient id="goldLinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#ffffff" />
+                        <stop offset="25%" stop-color="#fdf5c4" />
+                        <stop offset="50%" stop-color="#cba331" />
+                        <stop offset="75%" stop-color="#ebd594" />
+                        <stop offset="100%" stop-color="#7a5b0b" />
+                      </linearGradient>
+                      <linearGradient id="goldXGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#ffffff" />
+                        <stop offset="30%" stop-color="#ebd594" />
+                        <stop offset="70%" stop-color="#cba331" />
+                        <stop offset="100%" stop-color="#805d05" />
+                      </linearGradient>
+                      <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+                        <feGaussianBlur stdDeviation="3" result="blur" />
+                        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                      </filter>
+                    </defs>
+                    <g class="wedding-flourishes" stroke="#cba331" stroke-width="0.8" opacity="0.65">
+                      <path d="M 50,5 C 40,15 30,10 50,30 C 70,10 60,15 50,5 Z" />
+                      <path d="M 50,95 C 40,85 30,90 50,70 C 70,90 60,85 50,95 Z" />
+                      <path d="M 5,50 C 15,40 10,30 30,50 C 10,70 15,60 5,50 Z" />
+                      <path d="M 95,50 C 85,40 90,30 70,50 C 90,70 85,60 95,50 Z" />
+                      <circle cx="50" cy="18" r="1" fill="#cba331" />
+                      <circle cx="50" cy="82" r="1" fill="#cba331" />
+                      <circle cx="18" cy="50" r="1" fill="#cba331" />
+                      <circle cx="82" cy="50" r="1" fill="#cba331" />
+                    </g>
+                    <rect x="22" y="42" width="22" height="16" rx="8" stroke="url(#goldLinkGrad)" stroke-width="4.5"
+                      fill="none" filter="url(#goldGlow)" transform="rotate(-25 33 50)" />
+                    <rect x="56" y="42" width="22" height="16" rx="8" stroke="url(#goldLinkGrad)" stroke-width="4.5"
+                      fill="none" filter="url(#goldGlow)" transform="rotate(25 67 50)" />
+                    <rect x="36" y="38" width="28" height="24" rx="10" stroke="url(#goldLinkGrad)" stroke-width="5.5"
+                      fill="none" filter="url(#goldGlow)" />
+                    <g class="gold-x-group" filter="url(#goldGlow)">
+                      <line x1="30" y1="30" x2="70" y2="70" stroke="url(#goldXGrad)" stroke-width="7"
+                        stroke-linecap="round" />
+                      <line x1="70" y1="30" x2="30" y2="70" stroke="url(#goldXGrad)" stroke-width="7"
+                        stroke-linecap="round" />
+                      <line x1="30" y1="30" x2="70" y2="70" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                        opacity="0.7" />
+                      <line x1="70" y1="30" x2="30" y2="70" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                        opacity="0.7" />
+                    </g>
+                    <g fill="#ebd594" class="gold-sparkles">
+                      <path d="M 25,25 L 26,28 L 29,29 L 26,30 L 25,33 L 24,30 L 21,29 L 24,28 Z" />
+                      <path d="M 75,25 L 76,28 L 79,29 L 76,30 L 75,33 L 74,30 L 71,29 L 74,28 Z" />
+                      <path d="M 25,75 L 26,78 L 29,79 L 26,80 L 25,83 L 24,80 L 21,79 L 24,78 Z" />
+                      <path d="M 75,75 L 76,78 L 79,79 L 76,80 L 75,83 L 74,80 L 71,79 L 74,78 Z" />
+                    </g>
+                  </svg>
+                </div>
+                <p class="lock-message" data-translate="lock-msg-hero">Locked until Aug 23, 8:00 PM</p>
               </div>
             </div>
           </div>
         </div>
       </header>
 
-      <!-- Welcome Letter & Parents Invitation Card -->
+      <!-- Welcome Letter & Countdown Section -->
       <div class="section-container">
         <div class="watercolor-splash splash-green" style="top: -50px; left: -50px;"></div>
         <div class="welcome-card glass-card luxury-border-frame">
-          <h2 data-translate="welcome-title">Welcome to Our Wedding Celebration</h2>
+          <h2 data-translate="welcome-title">Welcome to our Engagement Site</h2>
           <div class="gold-divider"></div>
-          
-          <p class="invitation-banner-text" data-translate="invitation-banner">WE, TOGETHER WITH OUR FAMILIES, CORDIALLY INVITE OUR BELOVED FAMILY AND FRIENDS TO GRACE THE AUSPICIOUS OCCASION OF THE WEDDING OF</p>
-          
-          <div class="couple-details-card">
-            <div class="groom-info-block">
-              <h3 class="person-name" data-translate="groom-name">S. Kishore Raj, M.C.A.</h3>
-              <p class="person-role" data-translate="groom-role">(Assistant Manager at KM Enterprises)</p>
-              <p class="person-parents" data-translate="groom-parents">(S/O. Sri. L. Srinivasan & Smt. S. Devi)</p>
-            </div>
-            
-            <div class="ampersand-circle" data-translate="and-text">and</div>
-            
-            <div class="bride-info-block">
-              <h3 class="person-name" data-translate="bride-name">K. Seethalakshmi, B.Com.</h3>
-              <p class="person-role" data-translate="bride-role">(Human Resource Manager at Placement Point Solutions)</p>
-              <p class="person-parents" data-translate="bride-parents">(D/O. Late. Sri. G. Kuppan & Smt. K. Mekala)</p>
-            </div>
-          </div>
-
-          <p class="welcome-text" style="margin-top: 2rem;" data-translate="welcome-text">We are incredibly excited to take the next step in our journey together. Having you join us to celebrate our love and sacred union means the world to us.</p>
+          <p class="welcome-text" data-translate="welcome-text">We are incredibly excited to take the next step in our
+            journey together. Having you
+            join us to celebrate our love and union means the world to us. Please use this website to explore our story,
+            find schedules, view our gallery, and send your RSVP response.</p>
         </div>
 
-        <!-- Real-Time Countdown Timer -->
         <div class="countdown-wrapper">
-          <h3 class="countdown-title" data-translate="countdown-title">Countdown to the Sacred Union</h3>
+          <h3 class="countdown-title" data-translate="countdown-title">The Countdown</h3>
           <div class="gold-divider-small"></div>
 
-          <div id="countdown-lock-wrapper">
+          <!-- Countdown Timer Display Lock Wrapper -->
+          <div id="countdown-lock-wrapper" class="locked-container">
             <div id="countdown-lock-content">
+              <!-- Countdown Message (Shown when target date has passed) -->
               <div id="countdown-message" class="glass-card hidden"
                 style="padding: 2rem; width: 100%; max-width: 600px; margin: 0 auto 2rem auto;">
-                <h3 style="font-family: var(--font-serif); color: var(--secondary); z-index:1; position:relative; margin-bottom: 0;">
-                  Today is the Sacred Day!</h3>
+                <h3
+                  style="font-family: var(--font-serif); color: var(--primary); z-index:1; position:relative; margin-bottom: 0;">
+                  Today is the Day!</h3>
               </div>
 
               <!-- Countdown Timer Display -->
@@ -194,19 +234,79 @@
                 </div>
               </div>
             </div>
+            <div id="countdown-lock-overlay" class="lock-overlay hidden-fade">
+              <div class="lock-chain-wrapper">
+                <!-- Premium Metallic Gold Chain with X SVG -->
+                <svg class="gold-chain-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="goldLinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffffff" />
+                      <stop offset="25%" stop-color="#fdf5c4" />
+                      <stop offset="50%" stop-color="#cba331" />
+                      <stop offset="75%" stop-color="#ebd594" />
+                      <stop offset="100%" stop-color="#7a5b0b" />
+                    </linearGradient>
+                    <linearGradient id="goldXGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffffff" />
+                      <stop offset="30%" stop-color="#ebd594" />
+                      <stop offset="70%" stop-color="#cba331" />
+                      <stop offset="100%" stop-color="#805d05" />
+                    </linearGradient>
+                    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+                      <feGaussianBlur stdDeviation="3" result="blur" />
+                      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                    </filter>
+                  </defs>
+                  <g class="wedding-flourishes" stroke="#cba331" stroke-width="0.8" opacity="0.65">
+                    <path d="M 50,5 C 40,15 30,10 50,30 C 70,10 60,15 50,5 Z" />
+                    <path d="M 50,95 C 40,85 30,90 50,70 C 70,90 60,85 50,95 Z" />
+                    <path d="M 5,50 C 15,40 10,30 30,50 C 10,70 15,60 5,50 Z" />
+                    <path d="M 95,50 C 85,40 90,30 70,50 C 90,70 85,60 95,50 Z" />
+                    <circle cx="50" cy="18" r="1" fill="#cba331" />
+                    <circle cx="50" cy="82" r="1" fill="#cba331" />
+                    <circle cx="18" cy="50" r="1" fill="#cba331" />
+                    <circle cx="82" cy="50" r="1" fill="#cba331" />
+                  </g>
+                  <rect x="22" y="42" width="22" height="16" rx="8" stroke="url(#goldLinkGrad)" stroke-width="4.5"
+                    fill="none" filter="url(#goldGlow)" transform="rotate(-25 33 50)" />
+                  <rect x="56" y="42" width="22" height="16" rx="8" stroke="url(#goldLinkGrad)" stroke-width="4.5"
+                    fill="none" filter="url(#goldGlow)" transform="rotate(25 67 50)" />
+                  <rect x="36" y="38" width="28" height="24" rx="10" stroke="url(#goldLinkGrad)" stroke-width="5.5"
+                    fill="none" filter="url(#goldGlow)" />
+                  <g class="gold-x-group" filter="url(#goldGlow)">
+                    <line x1="30" y1="30" x2="70" y2="70" stroke="url(#goldXGrad)" stroke-width="7"
+                      stroke-linecap="round" />
+                    <line x1="70" y1="30" x2="30" y2="70" stroke="url(#goldXGrad)" stroke-width="7"
+                      stroke-linecap="round" />
+                    <line x1="30" y1="30" x2="70" y2="70" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                      opacity="0.7" />
+                    <line x1="70" y1="30" x2="30" y2="70" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                      opacity="0.7" />
+                  </g>
+                  <g fill="#ebd594" class="gold-sparkles">
+                    <path d="M 25,25 L 26,28 L 29,29 L 26,30 L 25,33 L 24,30 L 21,29 L 24,28 Z" />
+                    <path d="M 75,25 L 76,28 L 79,29 L 76,30 L 75,33 L 74,30 L 71,29 L 74,28 Z" />
+                    <path d="M 25,75 L 26,78 L 29,79 L 26,80 L 25,83 L 24,80 L 21,79 L 24,78 Z" />
+                    <path d="M 75,75 L 76,78 L 79,79 L 76,80 L 75,83 L 74,80 L 71,79 L 74,78 Z" />
+                  </g>
+                </svg>
+              </div>
+              <p class="lock-message" data-translate="lock-msg-countdown">Countdown Locked</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- PAGE 2: OUR STORY -->
-    <section id="story" class="page-view">
+    <!-- PAGE 2: OUR STORY (Temporarily Closed) -->
+    <section id="story" class="page-view" style="display: none !important;">
       <div class="section-container">
-        <div class="watercolor-splash splash-gold" style="bottom: 10%; right: -50px; width: 400px; height: 400px;"></div>
+        <div class="watercolor-splash splash-gold" style="bottom: 10%; right: -50px; width: 400px; height: 400px;">
+        </div>
         <div class="section-title-wrapper">
           <h2 class="section-title" data-translate="story-title">Our Love Story</h2>
           <div class="gold-divider"></div>
-          <p class="section-tagline" data-translate="story-subtitle">Every love story is beautiful, but ours is our favorite.</p>
+          <p class="section-tagline">How two paths crossed and became one beautiful journey</p>
         </div>
 
         <!-- Story Timeline -->
@@ -219,9 +319,11 @@
               <div class="timeline-image-wrapper">
                 <img src="assets/story_met.png" alt="How we met" class="timeline-img" loading="lazy" decoding="async">
               </div>
-              <span class="timeline-date">Blessed Beginnings</span>
-              <h3 data-translate="story-met-title">How We Met</h3>
-              <p data-translate="story-met-body">It started with a simple hello, but quickly grew into something extraordinary. Through shared values, laughter, and family blessings, we realized we had found our lifetime partner.</p>
+              <span class="timeline-date">April 12, 2021</span>
+              <h3 data-translate="story-met-title">Where It All Began</h3>
+              <p data-translate="story-met-body">It started with a spilled coffee, a shared laugh, and a conversation
+                that lasted until the cafe closed.
+                From that very first day, we knew we had found something truly magical.</p>
             </div>
           </div>
 
@@ -229,11 +331,14 @@
             <div class="timeline-dot"></div>
             <div class="timeline-content glass-card">
               <div class="timeline-image-wrapper">
-                <img src="assets/story_proposal.png" alt="The proposal" class="timeline-img" loading="lazy" decoding="async">
+                <img src="assets/story_proposal.png" alt="The proposal" class="timeline-img" loading="lazy"
+                  decoding="async">
               </div>
-              <span class="timeline-date">Family Blessing</span>
-              <h3 data-translate="story-proposal-title">The Sacred Vows</h3>
-              <p data-translate="story-proposal-body">With the love and support of our families, we made the lifelong commitment to walk hand-in-hand through all of life's beautiful chapters.</p>
+              <span class="timeline-date">September 18, 2024</span>
+              <h3 data-translate="story-proposal-title">The Proposal</h3>
+              <p data-translate="story-proposal-body">Under a canopy of fairy lights and a blanket of stars at our
+                favorite vineyard, Kishore asked the
+                question that changed our lives forever. Through tears of joy, Seethalakshmi said "Yes!"</p>
             </div>
           </div>
 
@@ -241,11 +346,14 @@
             <div class="timeline-dot"></div>
             <div class="timeline-content glass-card">
               <div class="timeline-image-wrapper">
-                <img src="assets/story_journey.png" alt="The journey" class="timeline-img" loading="lazy" decoding="async">
+                <img src="assets/story_journey.png" alt="The journey" class="timeline-img" loading="lazy"
+                  decoding="async">
               </div>
               <span class="timeline-date">October 25, 2026</span>
-              <h3 data-translate="story-journey-title">Our Journey Together</h3>
-              <p data-translate="story-journey-body">Now, we stand ready to begin our next chapter as husband and wife. We are so blessed to share this auspicious milestone with our wonderful family and friends.</p>
+              <h3 data-translate="story-journey-title">The Next Chapter</h3>
+              <p data-translate="story-journey-body">Now, we stand at the beginning of our greatest adventure yet. We
+                cannot wait to take this step and
+                celebrate our union surrounded by the people we love most.</p>
             </div>
           </div>
         </div>
@@ -267,15 +375,18 @@
               </div>
               <div class="qa-item">
                 <p class="qa-question" data-translate="qa-q1">What was your first impression of Seetha?</p>
-                <p class="qa-answer" data-translate="qa-kishore-a1">"I thought she was absolutely graceful, intelligent, and carried this warm, gentle energy that made me feel instantly comfortable."</p>
+                <p class="qa-answer" data-translate="qa-kishore-a1">"I thought she was absolutely stunning and carried
+                  this warm, gentle energy that made me feel instantly comfortable. I couldn't stop smiling."</p>
               </div>
               <div class="qa-item">
-                <p class="qa-question" data-translate="qa-q2">What do you admire most about her?</p>
-                <p class="qa-answer" data-translate="qa-kishore-a2">"Her dedication to family, her sharp mind, and how effortlessly she brings happiness into every room she enters."</p>
+                <p class="qa-question" data-translate="qa-q5">Who said 'I love you' first?</p>
+                <p class="qa-answer" data-translate="qa-kishore-a2">"I definitely did! We were walking along the beach
+                  in the evening, and I just couldn't keep it inside anymore. It felt completely natural."</p>
               </div>
               <div class="qa-item">
                 <p class="qa-question" data-translate="qa-q3">What is your favorite memory together?</p>
-                <p class="qa-answer" data-translate="qa-kishore-a3">"Meeting with our families and celebrating our engagement blessing with everyone smiling together."</p>
+                <p class="qa-answer" data-translate="qa-kishore-a3">"Our trip to Ooty. Getting caught in a sudden rain
+                  shower and drinking hot tea at a small roadside shop while looking at the foggy hills."</p>
               </div>
             </div>
 
@@ -287,17 +398,31 @@
               </div>
               <div class="qa-item">
                 <p class="qa-question" data-translate="qa-q4">What was your first impression of Kishore?</p>
-                <p class="qa-answer" data-translate="qa-seetha-a1">"He was incredibly polite, attentive, and carried himself with real dignity and kindness. I was instantly drawn to how genuine he is."</p>
+                <p class="qa-answer" data-translate="qa-seetha-a1">"He was incredibly polite, attentive, and had this
+                  wonderful, goofy laugh. I was instantly drawn to how genuine and kind he was."</p>
               </div>
               <div class="qa-item">
-                <p class="qa-question" data-translate="qa-q5">What do you admire most about him?</p>
-                <p class="qa-answer" data-translate="qa-seetha-a2">"His unwavering strength, calm wisdom, and how deeply he cares for everyone around him."</p>
+                <p class="qa-question" data-translate="qa-q5">Who said 'I love you' first?</p>
+                <p class="qa-answer">"He did, but I responded immediately because I had been feeling the exact same way
+                  for weeks. I was just waiting for him to say it!"</p>
               </div>
               <div class="qa-item">
-                <p class="qa-question" data-translate="qa-q6">What are you looking forward to most?</p>
-                <p class="qa-answer" data-translate="qa-seetha-a3">"Building our home together, creating lifelong memories, and embarking on this blessed journey with divine grace."</p>
+                <p class="qa-question" data-translate="qa-q3">What is your favorite memory together?</p>
+                <p class="qa-answer">"The proposal evening. The amount of detail and care he put into setting up the
+                  fairy lights and vineyard walk was so romantic, I was completely blown away."</p>
               </div>
             </div>
+          </div>
+        </div>
+
+        <!-- Romantic Quote Section -->
+        <div class="quote-section" style="margin-top: 5rem;">
+          <div class="quote-container glass-card luxury-border-frame">
+            <i class="fa-solid fa-quote-left quote-icon-left"></i>
+            <p class="quote-text">"In all the world, there is no heart for me like yours. In all the world, there is no
+              love for you like mine."</p>
+            <p class="quote-author">— Maya Angelou</p>
+            <i class="fa-solid fa-quote-right quote-icon-right"></i>
           </div>
         </div>
       </div>
@@ -308,69 +433,231 @@
       <div class="section-container">
         <div class="watercolor-splash splash-gold" style="top: -50px; right: -100px;"></div>
         <div class="section-title-wrapper">
-          <h2 class="section-title" data-translate="events-title">Wedding Events & Schedule</h2>
+          <h2 class="section-title" data-translate="events-title">The Wedding Events</h2>
           <div class="gold-divider"></div>
-          <p class="section-tagline" data-translate="events-tagline">Join us for the grand celebrations of our auspicious day</p>
+          <p class="section-tagline" data-translate="events-tagline">Join us for the celebrations of our special day</p>
         </div>
 
         <!-- Event Category Tabs -->
         <div class="event-tabs">
-          <button class="event-tab active" data-event-filter="all" data-translate="event-tab-all">All Events</button>
-          <button class="event-tab" data-event-filter="reception" data-translate="event-tab-reception">Reception Details</button>
-          <button class="event-tab" data-event-filter="wedding" data-translate="event-tab-wedding">Wedding Details</button>
+          <button class="event-tab active" data-event-filter="engagement" data-translate="event-tab-engagement"><i
+              class="fa-solid fa-ring"></i> Engagement Details</button>
+          <button class="event-tab" data-event-filter="wedding" data-translate="event-tab-wedding"><i
+              class="fa-solid fa-church"></i> Wedding Details</button>
         </div>
 
         <!-- Events Grid -->
         <div class="events-grid">
-          <!-- Reception Card -->
-          <div class="event-card glass-card luxury-arch-card" data-event-category="reception">
+          <!-- Engagement Card -->
+          <div class="event-card glass-card" data-event-category="engagement">
             <div class="event-header">
-              <i class="fa-solid fa-glass-cheers event-icon"></i>
-              <h3 data-translate="event-reception-title">Grand Reception</h3>
+              <i class="fa-solid fa-ring event-icon"></i>
+              <h3 data-translate="event-engagement-title">Engagement & Welcome</h3>
             </div>
             <div class="event-body">
-              <p class="event-time"><i class="fa-regular fa-calendar-check"></i> <span data-translate="event-reception-time">Saturday, 24th October 2026 • 7.00 p.m. onwards</span></p>
-              <p class="event-location"><i class="fa-solid fa-location-dot"></i> <span data-translate="event-reception-location">Pothi Mahal, Gummidipoondi</span></p>
-              <p class="event-desc" data-translate="event-reception-desc">Join us for a grand evening of celebrations, musical melodies, delectable feast, and warm felicitations under golden chandeliers.</p>
-              <a href="https://www.google.com/maps/search/?api=1&query=Pothi+Mahal+Gummidipoondi" target="_blank" rel="noopener noreferrer" class="btn-secondary" data-translate="view-map">Get Directions on Google Maps</a>
+              <p class="event-time"><i class="fa-regular fa-clock"></i> <span data-translate="event-engagement-time">Aug
+                  23 • 6:30 PM - 9:30 PM</span></p>
+              <p class="event-location"><i class="fa-solid fa-map-location-dot"></i> <span
+                  data-translate="event-engagement-location">Sri Om Chairma Thirumana Mandabam, Chennai</span></p>
+              <p class="event-desc" data-translate="event-engagement-desc">Join us for the exchange of engagement rings,
+                welcome cocktails, and an intimate family dinner under the vine trellis the evening before the
+                festivities.</p>
+              <a href="https://www.google.com/maps/place/Sri+Om+Chairma+Thirumana+Mandabam/@13.0324839,80.1982875,17z/data=!3m1!4b1!4m6!3m5!1s0x3a526727bd353231:0x8fab5f9656a5d3d2!8m2!3d13.0324787!4d80.2008624!16s%2Fg%2F1ptwl33w2?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank" rel="noopener noreferrer" class="btn-secondary" data-translate="view-map">View Location
+                Map</a>
             </div>
           </div>
 
-          <!-- Muhurtham / Wedding Card -->
-          <div class="event-card glass-card luxury-arch-card" data-event-category="wedding">
-            <div class="event-header">
-              <i class="fa-solid fa-gopuram event-icon"></i>
-              <h3 data-translate="event-mugurtham-title">Sacred Wedding (Muhurtham)</h3>
+          <!-- Reception Card -->
+          <div class="event-card glass-card hidden locked-container" data-event-category="wedding" id="reception-card">
+            <div class="lockable-content">
+              <div class="event-header">
+                <i class="fa-solid fa-glass-cheers event-icon"></i>
+                <h3 data-translate="event-reception-title">The Reception</h3>
+              </div>
+              <div class="event-body">
+                <p class="event-time"><i class="fa-regular fa-clock"></i> <span
+                    data-translate="event-reception-time">Oct 24 • 7:30 PM - 9:30 PM</span></p>
+                <p class="event-location"><i class="fa-solid fa-map-location-dot"></i> <span
+                    data-translate="event-reception-location">Pothi Mahal, Gummidipoondi</span></p>
+                <p class="event-desc" data-translate="event-reception-desc">Join us immediately following the
+                  pre-wedding celebrations for a grand reception dinner, live music, and congratulations under the
+                  chandeliers.</p>
+                <a href="https://www.google.com/maps/place/Pothi+Mahal/data=!4m2!3m1!1s0x0:0x8243a4e3db966cd7?sa=X&ved=1t:2428&ictx=111"
+                  target="_blank" rel="noopener noreferrer" class="btn-secondary" data-translate="view-map">View
+                  Location Map</a>
+              </div>
             </div>
-            <div class="event-body">
-              <p class="event-time"><i class="fa-regular fa-calendar-check"></i> <span data-translate="event-mugurtham-time">Sunday, 25th October 2026 • 6.30 a.m. - 7.30 a.m.</span></p>
-              <p class="event-location"><i class="fa-solid fa-location-dot"></i> <span data-translate="event-mugurtham-location">Pothi Mahal, Gummidipoondi</span></p>
-              <p class="event-desc" data-translate="event-mugurtham-desc">Our sacred marriage rites (Muhurtham) and wedding vows will be exchanged during the auspicious morning hours in the main hall.</p>
-              <a href="https://www.google.com/maps/search/?api=1&query=Pothi+Mahal+Gummidipoondi" target="_blank" rel="noopener noreferrer" class="btn-secondary" data-translate="view-map">Get Directions on Google Maps</a>
+            <div class="lock-overlay hidden-fade">
+              <div class="lock-chain-wrapper">
+                <!-- Premium Metallic Gold Chain with X SVG -->
+                <svg class="gold-chain-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="goldLinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffffff" />
+                      <stop offset="25%" stop-color="#fdf5c4" />
+                      <stop offset="50%" stop-color="#cba331" />
+                      <stop offset="75%" stop-color="#ebd594" />
+                      <stop offset="100%" stop-color="#7a5b0b" />
+                    </linearGradient>
+                    <linearGradient id="goldXGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffffff" />
+                      <stop offset="30%" stop-color="#ebd594" />
+                      <stop offset="70%" stop-color="#cba331" />
+                      <stop offset="100%" stop-color="#805d05" />
+                    </linearGradient>
+                    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+                      <feGaussianBlur stdDeviation="3" result="blur" />
+                      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                    </filter>
+                  </defs>
+                  <g class="wedding-flourishes" stroke="#cba331" stroke-width="0.8" opacity="0.65">
+                    <path d="M 50,5 C 40,15 30,10 50,30 C 70,10 60,15 50,5 Z" />
+                    <path d="M 50,95 C 40,85 30,90 50,70 C 70,90 60,85 50,95 Z" />
+                    <path d="M 5,50 C 15,40 10,30 30,50 C 10,70 15,60 5,50 Z" />
+                    <path d="M 95,50 C 85,40 90,30 70,50 C 90,70 85,60 95,50 Z" />
+                    <circle cx="50" cy="18" r="1" fill="#cba331" />
+                    <circle cx="50" cy="82" r="1" fill="#cba331" />
+                    <circle cx="18" cy="50" r="1" fill="#cba331" />
+                    <circle cx="82" cy="50" r="1" fill="#cba331" />
+                  </g>
+                  <rect x="22" y="42" width="22" height="16" rx="8" stroke="url(#goldLinkGrad)" stroke-width="4.5"
+                    fill="none" filter="url(#goldGlow)" transform="rotate(-25 33 50)" />
+                  <rect x="56" y="42" width="22" height="16" rx="8" stroke="url(#goldLinkGrad)" stroke-width="4.5"
+                    fill="none" filter="url(#goldGlow)" transform="rotate(25 67 50)" />
+                  <rect x="36" y="38" width="28" height="24" rx="10" stroke="url(#goldLinkGrad)" stroke-width="5.5"
+                    fill="none" filter="url(#goldGlow)" />
+                  <g class="gold-x-group" filter="url(#goldGlow)">
+                    <line x1="30" y1="30" x2="70" y2="70" stroke="url(#goldXGrad)" stroke-width="7"
+                      stroke-linecap="round" />
+                    <line x1="70" y1="30" x2="30" y2="70" stroke="url(#goldXGrad)" stroke-width="7"
+                      stroke-linecap="round" />
+                    <line x1="30" y1="30" x2="70" y2="70" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                      opacity="0.7" />
+                    <line x1="70" y1="30" x2="30" y2="70" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                      opacity="0.7" />
+                  </g>
+                  <g fill="#ebd594" class="gold-sparkles">
+                    <path d="M 25,25 L 26,28 L 29,29 L 26,30 L 25,33 L 24,30 L 21,29 L 24,28 Z" />
+                    <path d="M 75,25 L 76,28 L 79,29 L 76,30 L 75,33 L 74,30 L 71,29 L 74,28 Z" />
+                    <path d="M 25,75 L 26,78 L 29,79 L 26,80 L 25,83 L 24,80 L 21,79 L 24,78 Z" />
+                    <path d="M 75,75 L 76,78 L 79,79 L 76,80 L 75,83 L 74,80 L 71,79 L 74,78 Z" />
+                  </g>
+                </svg>
+              </div>
+              <p class="lock-message" data-translate="lock-msg-locked">Locked</p>
+            </div>
+          </div>
+
+          <!-- Mugurtham Card -->
+          <div class="event-card glass-card hidden locked-container" data-event-category="wedding" id="mugurtham-card">
+            <div class="lockable-content">
+              <div class="event-header">
+                <i class="fa-solid fa-gopuram event-icon"></i>
+                <h3 data-translate="event-mugurtham-title">Mugurtham</h3>
+              </div>
+              <div class="event-body">
+                <p class="event-time"><i class="fa-regular fa-clock"></i> <span
+                    data-translate="event-mugurtham-time">Oct 25 • 7:30 AM - 8:30 AM</span></p>
+                <p class="event-location"><i class="fa-solid fa-map-location-dot"></i> <span
+                    data-translate="event-reception-location">Pothi Mahal, Gummidipoondi</span></p>
+                <p class="event-desc" data-translate="event-mugurtham-desc">Our wedding vows and sacred marriage rites
+                  (Mugurtham) will be exchanged during the auspicious morning hours in the main hall.</p>
+                <a href="https://www.google.com/maps/place/Pothi+Mahal/data=!4m2!3m1!1s0x0:0x8243a4e3db966cd7?sa=X&ved=1t:2428&ictx=111"
+                  target="_blank" rel="noopener noreferrer" class="btn-secondary" data-translate="view-map">View
+                  Location Map</a>
+              </div>
+            </div>
+            <div class="lock-overlay hidden-fade">
+              <div class="lock-chain-wrapper">
+                <!-- Premium Metallic Gold Chain with X SVG -->
+                <svg class="gold-chain-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="goldLinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffffff" />
+                      <stop offset="25%" stop-color="#fdf5c4" />
+                      <stop offset="50%" stop-color="#cba331" />
+                      <stop offset="75%" stop-color="#ebd594" />
+                      <stop offset="100%" stop-color="#7a5b0b" />
+                    </linearGradient>
+                    <linearGradient id="goldXGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffffff" />
+                      <stop offset="30%" stop-color="#ebd594" />
+                      <stop offset="70%" stop-color="#cba331" />
+                      <stop offset="100%" stop-color="#805d05" />
+                    </linearGradient>
+                    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+                      <feGaussianBlur stdDeviation="3" result="blur" />
+                      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                    </filter>
+                  </defs>
+                  <g class="wedding-flourishes" stroke="#cba331" stroke-width="0.8" opacity="0.65">
+                    <path d="M 50,5 C 40,15 30,10 50,30 C 70,10 60,15 50,5 Z" />
+                    <path d="M 50,95 C 40,85 30,90 50,70 C 70,90 60,85 50,95 Z" />
+                    <path d="M 5,50 C 15,40 10,30 30,50 C 10,70 15,60 5,50 Z" />
+                    <path d="M 95,50 C 85,40 90,30 70,50 C 90,70 85,60 95,50 Z" />
+                    <circle cx="50" cy="18" r="1" fill="#cba331" />
+                    <circle cx="50" cy="82" r="1" fill="#cba331" />
+                    <circle cx="18" cy="50" r="1" fill="#cba331" />
+                    <circle cx="82" cy="50" r="1" fill="#cba331" />
+                  </g>
+                  <rect x="22" y="42" width="22" height="16" rx="8" stroke="url(#goldLinkGrad)" stroke-width="4.5"
+                    fill="none" filter="url(#goldGlow)" transform="rotate(-25 33 50)" />
+                  <rect x="56" y="42" width="22" height="16" rx="8" stroke="url(#goldLinkGrad)" stroke-width="4.5"
+                    fill="none" filter="url(#goldGlow)" transform="rotate(25 67 50)" />
+                  <rect x="36" y="38" width="28" height="24" rx="10" stroke="url(#goldLinkGrad)" stroke-width="5.5"
+                    fill="none" filter="url(#goldGlow)" />
+                  <g class="gold-x-group" filter="url(#goldGlow)">
+                    <line x1="30" y1="30" x2="70" y2="70" stroke="url(#goldXGrad)" stroke-width="7"
+                      stroke-linecap="round" />
+                    <line x1="70" y1="30" x2="30" y2="70" stroke="url(#goldXGrad)" stroke-width="7"
+                      stroke-linecap="round" />
+                    <line x1="30" y1="30" x2="70" y2="70" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                      opacity="0.7" />
+                    <line x1="70" y1="30" x2="30" y2="70" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                      opacity="0.7" />
+                  </g>
+                  <g fill="#ebd594" class="gold-sparkles">
+                    <path d="M 25,25 L 26,28 L 29,29 L 26,30 L 25,33 L 24,30 L 21,29 L 24,28 Z" />
+                    <path d="M 75,25 L 76,28 L 79,29 L 76,30 L 75,33 L 74,30 L 71,29 L 74,28 Z" />
+                    <path d="M 25,75 L 26,78 L 29,79 L 26,80 L 25,83 L 24,80 L 21,79 L 24,78 Z" />
+                    <path d="M 75,75 L 76,78 L 79,79 L 76,80 L 75,83 L 74,80 L 71,79 L 74,78 Z" />
+                  </g>
+                </svg>
+              </div>
+              <p class="lock-message" data-translate="lock-msg-locked">Locked</p>
             </div>
           </div>
         </div>
 
-        <!-- Venue & Travel Details -->
+        <!-- Travel & Accommodations Details -->
         <div class="travel-section" style="margin-top: 5rem;">
           <div class="section-title-wrapper">
-            <h2 class="section-title" data-translate="travel-title">Venue & Location Guide</h2>
+            <h2 class="section-title" data-translate="travel-title">Accommodations & Travel</h2>
             <div class="gold-divider"></div>
-            <p class="section-tagline" data-translate="travel-tagline">Detailed location and accommodation guide for our valued guests</p>
+            <p class="section-tagline" data-translate="travel-tagline">Information to assist you in planning your stay
+            </p>
           </div>
 
           <div class="events-grid">
-            <!-- Venue Address Card -->
+            <!-- Hotel Recommendations Card -->
             <div class="event-card glass-card">
               <div class="event-header">
-                <i class="fa-solid fa-building-columns event-icon"></i>
-                <h3 data-translate="travel-stay-title">Wedding Venue Address</h3>
+                <i class="fa-solid fa-hotel event-icon"></i>
+                <h3 data-translate="travel-stay-title">Where to Stay</h3>
               </div>
               <div class="event-body">
-                <p class="event-location"><i class="fa-solid fa-circle-check"></i> <span data-translate="travel-stay-location">Pothi Mahal, Gummidipoondi</span></p>
-                <p class="event-desc" style="font-size:0.9rem; margin-bottom:1.5rem !important;" data-translate="travel-stay-desc">G.N.T Main Road, Gummidipoondi - 601201, Tamil Nadu. Conveniently located on the main highway with spacious parking and luxury amenities.</p>
-                <a href="https://www.google.com/maps/search/?api=1&query=Pothi+Mahal+Gummidipoondi" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="margin-bottom: 1rem;" data-translate="travel-stay-map-btn">Open Google Maps</a>
-                <p class="event-desc" style="font-style: italic; font-weight:500; font-size:0.85rem; margin-top: 1rem;" data-translate="travel-coordinator">For venue directions or travel queries, please contact our family coordinator: +91 98765 43210</p>
+                <p class="event-location"><i class="fa-solid fa-circle-check"></i> <span
+                    data-translate="travel-stay-location">M R Residency, Chennai</span></p>
+                <p class="event-desc" style="font-size:0.85rem; margin-bottom:1.5rem !important;"
+                  data-translate="travel-stay-desc">Premium residency located extremely close to the wedding hall
+                  (around 5-10 minutes drive), offering excellent comforts for our guests.</p>
+                <a href="https://www.google.com/maps/place/M+R+RESIDENCY/@13.405143,80.1282176,20.25z/data=!4m14!1m7!3m6!1s0x3a4d81ad2b99f6fb:0x8243a4e3db966cd7!2sPothi+Mahal!8m2!3d13.4238978!4d80.1257851!16s%2Fg%2F11l32zvtrp!3m5!1s0x3a4d818c25a77c27:0x3e979763b70d4a13!8m2!3d13.4049024!4d80.1282025!16s%2Fg%2F11t2z3w0c8?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank" rel="noopener noreferrer" class="btn-secondary" style="margin-bottom: 1rem;"
+                  data-translate="travel-stay-map-btn">View Hotel Map</a>
+                <p class="event-desc" style="font-style: italic; font-weight:500; font-size:0.9rem; margin-top: 1rem;"
+                  data-translate="travel-coordinator">For reservations and booking assistance, please contact our
+                  coordinator: +91 98765 43210</p>
               </div>
             </div>
 
@@ -378,74 +665,180 @@
             <div class="event-card glass-card">
               <div class="event-header">
                 <i class="fa-solid fa-plane-departure event-icon"></i>
-                <h3 data-translate="travel-getting-title">How To Reach Pothi Mahal</h3>
+                <h3 data-translate="travel-getting-title">Getting There</h3>
               </div>
               <div class="event-body">
-                <p class="event-location"><i class="fa-solid fa-plane"></i> <span data-translate="travel-by-air">By Air</span></p>
-                <p class="event-desc" style="font-size:0.85rem; margin-bottom:1.2rem !important;" data-translate="travel-by-air-desc">Chennai International Airport (MAA) is approximately 65 km via GNT Road / NH16.</p>
+                <p class="event-location"><i class="fa-solid fa-plane"></i> <span data-translate="travel-by-air">By
+                    Air</span></p>
+                <p class="event-desc" style="font-size:0.85rem; margin-bottom:1.5rem !important;"
+                  data-translate="travel-by-air-desc">Chennai International Airport (MAA) is the nearest airport,
+                  located approximately 12 km from the venue and hotels.</p>
 
-                <p class="event-location"><i class="fa-solid fa-train"></i> <span data-translate="travel-by-train">By Train / Suburban Rail</span></p>
-                <p class="event-desc" style="font-size:0.85rem; margin-bottom:1.2rem !important;" data-translate="travel-by-train-desc">Gummidipoondi Railway Station is just 2 km from Pothi Mahal venue.</p>
+                <p class="event-location"><i class="fa-solid fa-train"></i> <span data-translate="travel-by-train">By
+                    Train</span></p>
+                <p class="event-desc" style="font-size:0.85rem; margin-bottom:1.5rem !important;"
+                  data-translate="travel-by-train-desc">Chennai Central Rail Station (MAS) connects to all major cities
+                  in India and is around 10 km from the venue.</p>
 
-                <p class="event-location"><i class="fa-solid fa-car"></i> <span data-translate="travel-by-cab">By Road / Car / Bus</span></p>
-                <p class="event-desc" style="font-size:0.85rem; margin-bottom:1.2rem !important;" data-translate="travel-by-cab-desc">Located right on GNT Main Road (NH16) with easy access for private vehicles and buses.</p>
+                <p class="event-location"><i class="fa-solid fa-car"></i> <span data-translate="travel-by-cab">Local Cab
+                    Transport</span></p>
+                <p class="event-desc" style="font-size:0.85rem; margin-bottom:1.5rem !important;"
+                  data-translate="travel-by-cab-desc">App cabs like Uber and Ola are widely available at the airport and
+                  train stations for direct transport.</p>
               </div>
             </div>
           </div>
         </div>
 
         <!-- Special Message For Our Guests -->
-        <div class="special-message-wrapper glass-card luxury-border-frame" style="margin-top: 4rem;">
-          <h3 data-translate="special-msg-title">A Message From The Heart</h3>
-          <p data-translate="special-msg-p1">Your presence is the greatest blessing we could ever receive.</p>
-          <p data-translate="special-msg-p2">As we unite our lives in marriage, we are filled with profound gratitude for the love, support, and guidance each of you has bestowed upon us.</p>
-          <p data-translate="special-msg-p3">This auspicious day is a celebration of family, friendship, faith, and the sacred bond that unites our two families.</p>
-          <p data-translate="special-msg-p4">We cordially request the pleasure of your company to grace this occasion and bless us as we begin our new journey together.</p>
-          <p class="special-message-signature" data-translate="special-msg-sig">With Love, Respect & Gratitude,</p>
-          <p class="special-message-couple" data-translate="special-msg-couple">S. Kishore Raj & K. Seethalakshmi</p>
+        <div class="special-message-wrapper glass-card">
+          <h3 data-translate="special-msg-title">A Special Message For Our Guests</h3>
+          <p data-translate="special-msg-p1">Your presence is the greatest gift we could ever receive.</p>
+          <p data-translate="special-msg-p2">As we celebrate this beautiful milestone in our journey together, we are
+            filled with gratitude for the love, support, and blessings that each of you has shared with us over the
+            years.</p>
+          <p data-translate="special-msg-p3">This day is not only about our engagement; it is about the families,
+            friendships, and cherished relationships that have shaped our lives and brought us to this moment.</p>
+          <p data-translate="special-msg-p4">We are honored to have you join us as we begin this new chapter together.
+            Your laughter, encouragement, and heartfelt wishes make this celebration truly meaningful.</p>
+          <p data-translate="special-msg-p5">Thank you for being an important part of our story. We look forward to
+            creating beautiful memories with you and sharing a day filled with love, joy, and happiness.</p>
+          <p class="special-message-signature" data-translate="special-msg-sig">With Love & Gratitude,</p>
+          <p class="special-message-couple" data-translate="special-msg-couple">Kishore Raj & Seetha Lakshmi</p>
         </div>
       </div>
     </section>
 
-    <!-- PAGE 4: GALLERY -->
-    <section id="gallery" class="page-view">
+    <!-- PAGE 4: GALLERY (Temporarily Closed) -->
+    <section id="gallery" class="page-view" style="display: none !important;">
       <div class="section-container">
         <div class="watercolor-splash splash-green" style="bottom: -50px; left: -100px;"></div>
         <div class="section-title-wrapper">
-          <h2 class="section-title" data-translate="gallery-title-header">Photo Gallery</h2>
+          <h2 class="section-title" data-translate="gallery-title-header">Gallery</h2>
           <div class="gold-divider"></div>
-          <p class="section-tagline" data-translate="gallery-tagline">A glimpse of our cherished moments and wedding highlights</p>
+          <p class="section-tagline" data-translate="gallery-tagline">We will share beautiful photos, videos, and
+            highlights of our engagement ceremony here after the event</p>
+        </div>
+
+        <!-- Gallery Memories Lock Card (Moved from Footer) -->
+        <div class="gallery-memories-section" style="margin-bottom: 3.5rem;">
+          <div id="gallery-lock-card" class="lock-card glass-card luxury-border-frame locked-container">
+            <!-- Gold foil ornaments inside the card -->
+            <span class="gold-corner-ornament top-left"></span>
+            <span class="gold-corner-ornament top-right"></span>
+            <span class="gold-corner-ornament bottom-left"></span>
+            <span class="gold-corner-ornament bottom-right"></span>
+
+            <!-- Shimmer reflective line effect -->
+            <div class="shimmer-sweep"></div>
+
+            <div class="lockable-content">
+              <h3 class="lock-title" style="margin-top: 1rem; font-family: var(--font-serif); color: var(--primary);"
+                data-translate="gallery-lock-title">Our Engagement Memories</h3>
+              <p class="lock-desc" style="color: var(--text-dark); font-weight: 300;"
+                data-translate="gallery-lock-desc">We will share beautiful photos, videos, and highlights of our
+                engagement ceremony here after the event.</p>
+              <button class="btn-primary lock-cta-btn" style="margin-top: 1rem; width: auto; pointer-events: none;"
+                data-translate="gallery-lock-btn">View Memories Gallery</button>
+            </div>
+
+            <div class="lock-overlay hidden-fade">
+              <div class="lock-chain-wrapper">
+                <!-- Premium Metallic Gold Chain with X SVG -->
+                <svg class="gold-chain-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="goldLinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffffff" />
+                      <stop offset="25%" stop-color="#fdf5c4" />
+                      <stop offset="50%" stop-color="#cba331" />
+                      <stop offset="75%" stop-color="#ebd594" />
+                      <stop offset="100%" stop-color="#7a5b0b" />
+                    </linearGradient>
+                    <linearGradient id="goldXGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffffff" />
+                      <stop offset="30%" stop-color="#ebd594" />
+                      <stop offset="70%" stop-color="#cba331" />
+                      <stop offset="100%" stop-color="#805d05" />
+                    </linearGradient>
+                    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+                      <feGaussianBlur stdDeviation="3" result="blur" />
+                      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                    </filter>
+                  </defs>
+                  <g class="wedding-flourishes" stroke="#cba331" stroke-width="0.8" opacity="0.65">
+                    <path d="M 50,5 C 40,15 30,10 50,30 C 70,10 60,15 50,5 Z" />
+                    <path d="M 50,95 C 40,85 30,90 50,70 C 70,90 60,85 50,95 Z" />
+                    <path d="M 5,50 C 15,40 10,30 30,50 C 10,70 15,60 5,50 Z" />
+                    <path d="M 95,50 C 85,40 90,30 70,50 C 90,70 85,60 95,50 Z" />
+                    <circle cx="50" cy="18" r="1" fill="#cba331" />
+                    <circle cx="50" cy="82" r="1" fill="#cba331" />
+                    <circle cx="18" cy="50" r="1" fill="#cba331" />
+                    <circle cx="82" cy="50" r="1" fill="#cba331" />
+                  </g>
+                  <rect x="22" y="42" width="22" height="16" rx="8" stroke="url(#goldLinkGrad)" stroke-width="4.5"
+                    fill="none" filter="url(#goldGlow)" transform="rotate(-25 33 50)" />
+                  <rect x="56" y="42" width="22" height="16" rx="8" stroke="url(#goldLinkGrad)" stroke-width="4.5"
+                    fill="none" filter="url(#goldGlow)" transform="rotate(25 67 50)" />
+                  <rect x="36" y="38" width="28" height="24" rx="10" stroke="url(#goldLinkGrad)" stroke-width="5.5"
+                    fill="none" filter="url(#goldGlow)" />
+                  <g class="gold-x-group" filter="url(#goldGlow)">
+                    <line x1="30" y1="30" x2="70" y2="70" stroke="url(#goldXGrad)" stroke-width="7"
+                      stroke-linecap="round" />
+                    <line x1="70" y1="30" x2="30" y2="70" stroke="url(#goldXGrad)" stroke-width="7"
+                      stroke-linecap="round" />
+                    <line x1="30" y1="30" x2="70" y2="70" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                      opacity="0.7" />
+                    <line x1="70" y1="30" x2="30" y2="70" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                      opacity="0.7" />
+                  </g>
+                  <g fill="#ebd594" class="gold-sparkles">
+                    <path d="M 25,25 L 26,28 L 29,29 L 26,30 L 25,33 L 24,30 L 21,29 L 24,28 Z" />
+                    <path d="M 75,25 L 76,28 L 79,29 L 76,30 L 75,33 L 74,30 L 71,29 L 74,28 Z" />
+                    <path d="M 25,75 L 26,78 L 29,79 L 26,80 L 25,83 L 24,80 L 21,79 L 24,78 Z" />
+                    <path d="M 75,75 L 76,78 L 79,79 L 76,80 L 75,83 L 74,80 L 71,79 L 74,78 Z" />
+                  </g>
+                </svg>
+              </div>
+              <p class="lock-message" data-translate="lock-msg-gallery">Available After Our Engagement</p>
+            </div>
+
+            <div id="lock-tooltip" class="lock-tooltip hidden">Available After Our Engagement</div>
+          </div>
         </div>
 
         <!-- Gallery Filter Tabs -->
         <div class="gallery-tabs">
-          <button class="gallery-tab active" data-filter="all" data-translate="gallery-all">All Highlights</button>
-          <button class="gallery-tab" data-filter="engagement" data-translate="gallery-engagement">Ceremony</button>
-          <button class="gallery-tab" data-filter="shoot" data-translate="gallery-prewedding">Portraits</button>
+          <button class="gallery-tab active" data-filter="all" data-translate="gallery-all">All Photos</button>
+          <button class="gallery-tab" data-filter="engagement" data-translate="gallery-engagement">Engagement</button>
+          <button class="gallery-tab" data-filter="shoot" data-translate="gallery-prewedding">Pre-Wedding</button>
         </div>
 
         <!-- Photo Grid -->
         <div class="gallery-grid">
           <div class="gallery-item" data-category="engagement">
-            <img src="assets/story_met.png" alt="First Met Celebration" class="gallery-img" data-index="0" loading="lazy" decoding="async">
+            <img src="assets/story_met.png" alt="First Met Celebration" class="gallery-img" data-index="0"
+              loading="lazy" decoding="async">
             <div class="gallery-hover">
               <i class="fa-solid fa-expand"></i>
             </div>
           </div>
           <div class="gallery-item" data-category="engagement">
-            <img src="assets/story_proposal.png" alt="Engagement Proposal Ring" class="gallery-img" data-index="1" loading="lazy" decoding="async">
+            <img src="assets/story_proposal.png" alt="Engagement Proposal Ring" class="gallery-img" data-index="1"
+              loading="lazy" decoding="async">
             <div class="gallery-hover">
               <i class="fa-solid fa-expand"></i>
             </div>
           </div>
           <div class="gallery-item" data-category="shoot">
-            <img src="assets/story_journey.png" alt="Pre-Wedding Shoot Sunset" class="gallery-img" data-index="2" loading="lazy" decoding="async">
+            <img src="assets/story_journey.png" alt="Pre-Wedding Shoot Sunset" class="gallery-img" data-index="2"
+              loading="lazy" decoding="async">
             <div class="gallery-hover">
               <i class="fa-solid fa-expand"></i>
             </div>
           </div>
           <div class="gallery-item" data-category="shoot">
-            <img src="assets/wedding_hero_bg.png" alt="Pre-Wedding Art Portrait" class="gallery-img" data-index="3" loading="lazy" decoding="async">
+            <img src="assets/wedding_hero_bg.png" alt="Pre-Wedding Art Portrait" class="gallery-img" data-index="3"
+              loading="lazy" decoding="async">
             <div class="gallery-hover">
               <i class="fa-solid fa-expand"></i>
             </div>
@@ -463,14 +856,17 @@
       </div>
     </section>
 
-    <!-- PAGE 5: GUESTBOOK -->
+
+
+    <!-- PAGE 6: GUESTBOOK -->
     <section id="guestbook" class="page-view">
       <div class="section-container">
         <div class="watercolor-splash splash-green" style="top: -100px; left: -100px;"></div>
         <div class="section-title-wrapper">
           <h2 class="section-title" data-translate="guestbook-title">Congratulatory Guestbook</h2>
           <div class="gold-divider"></div>
-          <p class="section-tagline" data-translate="guestbook-tagline">Leave your warm wishes and divine blessings for the couple</p>
+          <p class="section-tagline" data-translate="guestbook-tagline">Leave a message of love and blessings for the
+            couple</p>
         </div>
 
         <!-- Add Guestbook wish form -->
@@ -481,16 +877,18 @@
                 <label for="gb-name" data-translate="gb-label-name">Your Name</label>
                 <div class="input-with-icon">
                   <i class="fa-solid fa-user form-icon"></i>
-                  <input type="text" id="gb-name" placeholder="Enter your full name" data-translate-placeholder="gb-placeholder-name" required>
+                  <input type="text" id="gb-name" placeholder="Enter your name"
+                    data-translate-placeholder="gb-placeholder-name" required>
                 </div>
               </div>
             </div>
             <div class="form-row">
               <div class="form-group">
-                <label for="gb-message" data-translate="gb-label-msg">Your Blessings & Message</label>
+                <label for="gb-message" data-translate="gb-label-msg">Your Blessings / Message</label>
                 <div class="input-with-icon text-area-icon-wrapper">
                   <i class="fa-solid fa-envelope-open-text form-icon"></i>
-                  <textarea id="gb-message" placeholder="Write your heartfelt wishes for Kishore & Seethalakshmi..." rows="4" data-translate-placeholder="gb-placeholder-msg" required></textarea>
+                  <textarea id="gb-message" placeholder="Type your congratulations here..." rows="4"
+                    data-translate-placeholder="gb-placeholder-msg" required></textarea>
                 </div>
               </div>
             </div>
@@ -506,11 +904,6 @@
             <!-- Dynamic sticky notes injected here -->
           </div>
         </div>
-
-        <!-- Closing Blessing Banner -->
-        <div class="closing-blessing-card glass-card luxury-border-frame" style="margin-top: 4rem; text-align: center; padding: 2.5rem 1.5rem;">
-          <p class="closing-blessing-text" data-translate="closing-blessing">"Your gracious presence, love and blessings will make our special day truly memorable."</p>
-        </div>
       </div>
     </section>
 
@@ -521,19 +914,109 @@
     <div class="footer-container">
       <div class="footer-left">
         <div class="footer-logo-monogram">K & S</div>
-        <p class="footer-tagline" data-translate="footer-tagline">Two hearts united in love and faith. We look forward to celebrating our auspicious wedding with you.</p>
+        <p class="footer-tagline" data-translate="footer-tagline">Two hearts united in love and faith. We look forward
+          to celebrating our wedding journey with you.</p>
         <div class="footer-hashtags">
-          <span>#KishoreWedsSeetha</span>
-          <span>#KSWedding2026</span>
+          <span>#VedhaWedsSeetha</span>
+          <span>#VSLoveStory</span>
         </div>
       </div>
       <div class="footer-right">
-        <p class="footer-signoff" data-translate="footer-signoff">With Love & Gratitude,</p>
-        <h2 class="footer-couple" data-translate="footer-couple">S. Kishore Raj & K. Seethalakshmi</h2>
-        <p class="footer-copyright" data-translate="footer-copyright">&copy; 2026 S. Kishore Raj & K. Seethalakshmi. All rights reserved.</p>
+        <p class="footer-signoff" data-translate="footer-signoff">With Love,</p>
+        <h2 class="footer-couple" data-translate="footer-couple">Vedha Kishore Raj & SeethaLakshmi</h2>
+        <p class="footer-copyright">
+          <span data-translate="footer-copyright">&copy; 2026 Vedha Kishore & SeethaLakshmi. All rights reserved.</span>
+          <span class="footer-lock-control locked" id="footer-lock-control" title="Toggle Lock Settings">
+            <span class="lock-status-label" id="footer-lock-status-text">LOCKED</span>
+            <label class="switch-toggle">
+              <input type="checkbox" id="footer-lock-toggle" aria-label="Toggle lock state">
+              <span class="switch-slider"></span>
+            </label>
+          </span>
+        </p>
       </div>
     </div>
   </footer>
+
+
+
+  <!-- Custom Password Modal for Lock Settings -->
+  <div id="password-modal" class="password-modal-overlay hidden">
+    <div class="password-modal-card glass-card luxury-border-frame">
+      <!-- Password Authentication View -->
+      <div id="password-modal-auth-view" style="width: 100%;">
+        <h3>Lock Settings</h3>
+        <p style="margin-bottom: 1.5rem; font-size: 0.9rem;">Enter password to unlock lock settings:</p>
+        <div class="form-row" style="margin-bottom: 1.8rem; position: relative;">
+          <div class="password-input-wrapper">
+            <i class="fa-solid fa-lock form-icon"></i>
+            <input type="password" id="admin-password-input" placeholder="Enter Admin Password" required
+              autocomplete="current-password">
+            <button type="button" id="toggle-password-visibility" class="toggle-password-btn"
+              aria-label="Show password">
+              <i class="fa-regular fa-eye"></i>
+            </button>
+          </div>
+          <p id="password-error-msg" class="password-error hidden"
+            style="color: #ff4d4d; font-size: 0.8rem; margin-top: 0.5rem; text-align: left;">Incorrect password. Try
+            again.</p>
+        </div>
+        <div class="password-modal-buttons" style="display: flex; gap: 1rem; justify-content: flex-end;">
+          <button id="password-cancel-btn" class="btn-secondary"
+            style="padding: 0.6rem 1.5rem; font-size: 0.8rem;">Cancel</button>
+          <button id="password-submit-btn" class="btn-primary"
+            style="padding: 0.6rem 1.5rem; width: auto; font-size: 0.8rem; margin: 0;">Submit</button>
+        </div>
+      </div>
+
+      <!-- Admin Controls View (Hidden initially) -->
+      <div id="password-modal-controls-view" class="hidden" style="width: 100%;">
+        <h3>Admin Panel</h3>
+        <p style="margin-bottom: 1.5rem; font-size: 0.9rem;">Toggle lock state for specific sections:</p>
+
+        <!-- Wedding Details Toggle -->
+        <div class="admin-control-row"
+          style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; text-align: left;">
+          <div style="flex: 1; padding-right: 15px;">
+            <span
+              style="font-family: var(--font-serif); font-weight: 600; color: var(--primary); font-size: 1rem;">Wedding
+              Details Lock</span>
+            <p style="font-size: 0.75rem; color: var(--text-dark); margin: 2px 0 0 0; opacity: 0.85; line-height: 1.3;">
+              Locks dates, venues, events, & countdown</p>
+          </div>
+          <label class="admin-switch"
+            style="position: relative; display: inline-block; width: 44px; height: 24px; flex-shrink: 0; cursor: pointer;">
+            <input type="checkbox" id="toggle-wedding-details" style="opacity: 0; width: 0; height: 0;">
+            <span class="admin-slider"
+              style="position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(18, 62, 50, 0.2); transition: .4s; border-radius: 24px;"></span>
+          </label>
+        </div>
+
+        <!-- Footer Memories Toggle -->
+        <div class="admin-control-row"
+          style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; text-align: left;">
+          <div style="flex: 1; padding-right: 15px;">
+            <span
+              style="font-family: var(--font-serif); font-weight: 600; color: var(--primary); font-size: 1rem;">Footer
+              Memories Lock</span>
+            <p style="font-size: 0.75rem; color: var(--text-dark); margin: 2px 0 0 0; opacity: 0.85; line-height: 1.3;">
+              Locks the engagement memories card</p>
+          </div>
+          <label class="admin-switch"
+            style="position: relative; display: inline-block; width: 44px; height: 24px; flex-shrink: 0; cursor: pointer;">
+            <input type="checkbox" id="toggle-footer-memories" style="opacity: 0; width: 0; height: 0;">
+            <span class="admin-slider"
+              style="position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(18, 62, 50, 0.2); transition: .4s; border-radius: 24px;"></span>
+          </label>
+        </div>
+
+        <div class="password-modal-buttons" style="display: flex; justify-content: flex-end;">
+          <button id="admin-close-btn" class="btn-primary"
+            style="padding: 0.6rem 1.5rem; width: auto; font-size: 0.8rem; margin: 0;">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Scripts -->
   <script src="translations.js"></script>

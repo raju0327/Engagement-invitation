@@ -7,13 +7,13 @@ window.translations = {
     "nav-guestbook": "Guestbook",
     "nav-wishes": "Wishes",
     
-    "env-subtitle": "Engagement Invitation",
-    "env-names": "Vedha Kishore Raj & SeethaLakshmi",
+    "env-subtitle": "Wedding Invitation",
+    "env-names": "Kishore Raj & SeethaLakshmi",
     "env-prompt": "You are cordially invited",
     "env-action": "Click to Open",
     
     "hero-save-date": "Save The Date",
-    "hero-couple-names": "Vedha Kishore Raj <span class=\"ampersand\">&</span> SeethaLakshmi",
+    "hero-couple-names": "Kishore Raj <span class=\"ampersand\">&</span> SeethaLakshmi",
     "hero-tab-engagement": "Engagement",
     "hero-tab-wedding": "Wedding",
     
@@ -22,8 +22,8 @@ window.translations = {
     "hero-date-wedding": "October 25, 2026",
     "hero-venue-wedding": "Pothi Mahal • Gummidipoondi, Tamilnadu",
     
-    "welcome-title": "Welcome to our Engagement Site",
-    "welcome-text": "We are incredibly excited to take the next step in our journey together. Having you join us to celebrate our engagement means the world to us. Please use this website to explore event details, location maps, and send your RSVP response.",
+    "welcome-title": "Welcome to our Wedding Site",
+    "welcome-text": "We are incredibly excited to take the next step in our journey together. Having you join us to celebrate our wedding means the world to us. Please use this website to explore event details, location maps, and send your RSVP response.",
     
     "countdown-title": "Countdown to the Celebration",
     "days": "Days",
@@ -34,7 +34,7 @@ window.translations = {
     "lock-msg-hero": "Locked until Aug 23, 8:00 PM",
     "lock-msg-countdown": "Countdown Locked",
     "lock-msg-locked": "Locked",
-    "lock-msg-gallery": "Available After Our Engagement",
+    "lock-msg-gallery": "Available After Our Wedding",
     
     "story-title": "Our Love Story",
     "story-subtitle": "Every love story is beautiful, but ours is our favorite.",
@@ -104,16 +104,16 @@ window.translations = {
     "special-msg-title": "A Special Message For Our Guests",
     "special-msg-p1": "Your presence is the greatest gift we could ever receive.",
     "special-msg-p2": "As we celebrate this beautiful milestone in our journey together, we are filled with gratitude for the love, support, and blessings that each of you has shared with us over the years.",
-    "special-msg-p3": "This day is not only about our engagement; it is about the families, friendships, and cherished relationships that have shaped our lives and brought us to this moment.",
+    "special-msg-p3": "This day is not only about our wedding; it is about the families, friendships, and cherished relationships that have shaped our lives and brought us to this moment.",
     "special-msg-p4": "We are honored to have you join us as we begin this new chapter together. Your laughter, encouragement, and heartfelt wishes make this celebration truly meaningful.",
     "special-msg-p5": "Thank you for being an important part of our story. We look forward to creating beautiful memories with you and sharing a day filled with love, joy, and happiness.",
     "special-msg-sig": "With Love & Gratitude,",
     "special-msg-couple": "Kishore Raj & Seetha Lakshmi",
     
     "gallery-title-header": "Gallery",
-    "gallery-tagline": "We will share beautiful photos, videos, and highlights of our engagement ceremony here after the event",
-    "gallery-lock-title": "Our Engagement Memories",
-    "gallery-lock-desc": "We will share beautiful photos, videos, and highlights of our engagement ceremony here after the event.",
+    "gallery-tagline": "We will share beautiful photos, videos, and highlights of our wedding ceremony here after the event",
+    "gallery-lock-title": "Our Wedding Memories",
+    "gallery-lock-desc": "We will share beautiful photos, videos, and highlights of our wedding ceremony here after the event.",
     "gallery-lock-btn": "View Memories Gallery",
     "gallery-all": "All Photos",
     "gallery-engagement": "Engagement",
@@ -130,10 +130,10 @@ window.translations = {
     "wishes-subtitle": "Blessings and messages from our family and friends.",
     "wishes-loading": "Loading wishes...",
     
-    "footer-tagline": "Two hearts united in love and faith. We look forward to celebrating our engagement journey with you.",
+    "footer-tagline": "Two hearts united in love and faith. We look forward to celebrating our wedding journey with you.",
     "footer-signoff": "With Love,",
-    "footer-couple": "Vedha Kishore Raj & SeethaLakshmi",
-    "footer-copyright": "© 2026 Vedha Kishore & SeethaLakshmi. All rights reserved."
+    "footer-couple": "Kishore Raj & SeethaLakshmi",
+    "footer-copyright": "© 2026 Kishore & SeethaLakshmi. All rights reserved."
   },
   ta: {
     "nav-home": "முகப்பு",
@@ -143,13 +143,13 @@ window.translations = {
     "nav-guestbook": "வாழ்த்துப் புத்தகம்",
     "nav-wishes": "வாழ்த்துகள்",
     
-    "env-subtitle": "நிச்சயதார்த்த அழைப்பிதழ்",
-    "env-names": "வேதா கிஷோர் ராஜ் & சீதாலட்சுமி",
+    "env-subtitle": "திருமண அழைப்பிதழ்",
+    "env-names": "கிஷோர் ராஜ் & சீதாலட்சுமி",
     "env-prompt": "உங்களை அன்போடு அழைக்கிறோம்",
     "env-action": "திறக்க கிளிக் செய்யவும்",
     
     "hero-save-date": "தேதியை குறிக்கவும்",
-    "hero-couple-names": "வேதா கிஷோர் ராஜ் <span class=\"ampersand\">&</span> சீதாலட்சுமி",
+    "hero-couple-names": "கிஷோர் ராஜ் <span class=\"ampersand\">&</span> சீதாலட்சுமி",
     "hero-tab-engagement": "நிச்சயதார்த்தம்",
     "hero-tab-wedding": "திருமணம்",
     
@@ -158,8 +158,8 @@ window.translations = {
     "hero-date-wedding": "அக்டோபர் 25, 2026",
     "hero-venue-wedding": "போத்தி மஹால் • கும்மிடிப்பூண்டி, தமிழ்நாடு",
     
-    "welcome-title": "எங்கள் நிச்சயதார்த்த இணையதளத்திற்கு வரவேற்பு",
-    "welcome-text": "எங்கள் நிச்சயதார்த்த இணையதளத்திற்கு உங்களை அன்போடு வரவேற்கிறோம். எங்கள் வாழ்நாள் பயணத்தின் அடுத்த அடியை எடுத்து வைப்பதில் நாங்கள் பெரும் மகிழ்ச்சி அடைகிறோம். இந்த இனிய தருணத்தைக் கொண்டாட எங்களுடன் நீங்கள் இணைவது எங்களுக்கு எல்லையற்ற மகிழ்ச்சியைத் தரும். நிகழ்வு விவரங்களை ஆராயவும், உங்களது வருகையை உறுதிப்படுத்தவும் இந்த இணையதளத்தைப் பயன்படுத்த வேண்டுகிறோம்.",
+    "welcome-title": "எங்கள் திருமண இணையதளத்திற்கு வரவேற்பு",
+    "welcome-text": "எங்கள் திருமண இணையதளத்திற்கு உங்களை அன்போடு வரவேற்கிறோம். எங்கள் வாழ்நாள் பயணத்தின் அடுத்த அடியை எடுத்து வைப்பதில் நாங்கள் பெரும் மகிழ்ச்சி அடைகிறோம். இந்த இனிய தருணத்தைக் கொண்டாட எங்களுடன் நீங்கள் இணைவது எங்களுக்கு எல்லையற்ற மகிழ்ச்சியைத் தரும். நிகழ்வு விவரங்களை ஆராயவும், உங்களது வருகையை உறுதிப்படுத்தவும் இந்த இணையதளத்தைப் பயன்படுத்த வேண்டுகிறோம்.",
     
     "countdown-title": "மங்கல நாள் கவுண்ட்டவுன்",
     "days": "நாட்கள்",
@@ -170,7 +170,7 @@ window.translations = {
     "lock-msg-hero": "ஆகஸ்ட் 23, மாலை 8:00 மணி வரை பூட்டப்பட்டுள்ளது",
     "lock-msg-countdown": "கவுண்ட்டவுன் பூட்டப்பட்டுள்ளது",
     "lock-msg-locked": "பூட்டப்பட்டுள்ளது",
-    "lock-msg-gallery": "நிச்சயதார்த்தத்திற்குப் பின் கிடைக்கும்",
+    "lock-msg-gallery": "திருமணத்திற்குப் பின் கிடைக்கும்",
     
     "story-title": "எங்கள் காதல் கதை",
     "story-subtitle": "ஒவ்வொரு காதல் கதையும் அழகானது, ஆனால் எங்களது கதை எங்களுக்கு மிகவும் ஸ்பெஷலானது.",
@@ -247,9 +247,9 @@ window.translations = {
     "special-msg-couple": "கிஷோர் ராஜ் & சீதா லட்சுமி",
     
     "gallery-title-header": "புகைப்படத் தொகுப்பு",
-    "gallery-tagline": "எங்கள் நிச்சயதார்த்த விழா மற்றும் திருமண தருணங்களின் அழகான புகைப்படங்களை இங்கே உங்களுடன் பகிர்ந்து கொள்வோம்",
-    "gallery-lock-title": "எங்கள் நிச்சயதார்த்த நினைவுகள்",
-    "gallery-lock-desc": "நிச்சயதார்த்த விழாவின் அழகான புகைப்படங்கள் மற்றும் சிறப்பம்சங்களை விழாவிற்குப் பிறகு இங்கே பகிர்ந்து கொள்வோம்.",
+    "gallery-tagline": "எங்கள் திருமண தருணங்களின் அழகான புகைப்படங்களை இங்கே உங்களுடன் பகிர்ந்து கொள்வோம்",
+    "gallery-lock-title": "எங்கள் திருமண நினைவுகள்",
+    "gallery-lock-desc": "திருமண விழாவின் அழகான புகைப்படங்கள் மற்றும் சிறப்பம்சங்களை விழாவிற்குப் பிறகு இங்கே பகிர்ந்து கொள்வோம்.",
     "gallery-lock-btn": "புகைப்படங்களை காண்க",
     "gallery-all": "அனைத்தும்",
     "gallery-engagement": "நிச்சயதார்த்தம்",
@@ -266,10 +266,10 @@ window.translations = {
     "wishes-subtitle": "குடும்பத்தினர் மற்றும் நண்பர்களின் வாழ்த்துகள் மற்றும் ஆசிகள்.",
     "wishes-loading": "வாழ்த்துகள் ஏற்றப்படுகின்றன...",
     
-    "footer-tagline": "இரு இதயங்கள் அன்பிலும் நம்பிக்கையிலும் இணைகின்றன. எங்களது நிச்சயதார்த்தப் பயணத்தில் உங்களுடன் கொண்டாடுவதை எதிர்நோக்குகிறோம்.",
+    "footer-tagline": "இரு இதயங்கள் அன்பிலும் நம்பிக்கையிலும் இணைகின்றன. எங்களது திருமணப் பயணத்தில் உங்களுடன் கொண்டாடுவதை எதிர்நோக்குகிறோம்.",
     "footer-signoff": "அன்புடன்,",
-    "footer-couple": "வேதா கிஷோர் ராஜ் & சீதாலட்சுமி",
-    "footer-copyright": "© 2026 வேதா கிஷோர் & சீதாலட்சுமி. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
+    "footer-couple": "கிஷோர் ராஜ் & சீதாலட்சுமி",
+    "footer-copyright": "© 2026 கிஷோர் & சீதாலட்சுமி. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
   }
 };
 
